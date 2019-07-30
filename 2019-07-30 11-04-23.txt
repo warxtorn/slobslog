@@ -1,0 +1,1585 @@
+[000:00:00:00.710.497.478][Info] ---------------------------------
+[000:00:00:00.710.559.450][Info] Initializing D3D11...
+[000:00:00:00.710.581.526][Info] Available Video Adapters: 
+[000:00:00:00.711.557.121][Info] 	Adapter 1: Radeon RX 590 Series
+[000:00:00:00.711.583.984][Info] 	  Dedicated VRAM: 4274225152
+[000:00:00:00.711.599.942][Info] 	  Shared VRAM:    4257767424
+[000:00:00:00.711.637.711][Info] 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+[000:00:00:00.711.660.851][Info] 	  output 2: pos={1920, 0}, size={1920, 1080}, attached=true
+[000:00:00:00.711.683.990][Info] 	  output 3: pos={1032, -1080}, size={1920, 1080}, attached=true
+[000:00:00:00.713.150.307][Info] Loading up D3D11 on adapter Radeon RX 590 Series (0)
+[000:00:00:00.730.054.312][Info] D3D11 loaded successfully, feature level used: 45056
+[000:00:00:01.404.617.582][Info] ---------------------------------
+[000:00:00:01.404.644.179][Info] video settings reset:
+[000:00:00:01.404.644.179][Info] 	base resolution:   1920x1080
+[000:00:00:01.404.644.179][Info] 	output resolution: 1920x1080
+[000:00:00:01.404.644.179][Info] 	downscale filter:  Bicubic
+[000:00:00:01.404.644.179][Info] 	fps:               60/1
+[000:00:00:01.404.644.179][Info] 	format:            NV12
+[000:00:00:01.404.644.179][Info] 	YUV mode:          601/Partial
+[000:00:00:01.404.833.553][Info] NV12 texture support enabled
+[000:00:00:01.406.469.030][Debug] ---------------------------------
+[000:00:00:01.407.745.175][Debug] Required module function 'obs_module_load' in module 'C:/Program Files/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+[000:00:00:01.407.772.038][Debug] ---------------------------------
+[000:00:00:01.408.368.087][Debug] Loading module: coreaudio-encoder.dll
+[000:00:00:01.408.812.530][Debug] [CoreAudio encoder]: Failed loading library 'CoreAudioToolbox.dll'
+[000:00:00:01.408.832.213][Warning] [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+[000:00:00:01.408.843.383][Debug] ---------------------------------
+[000:00:00:01.409.838.394][Debug] Loading module: enc-amf.dll
+[000:00:00:01.410.108.358][Debug] [AMF] <obs_module_load> Loading...
+[000:00:00:01.654.504.011][Debug] [AMF] <Plugin::AMD::AMF::AMF> Initializing...
+[000:00:00:01.656.801.498][Debug] [AMF] <Plugin::AMD::AMF::AMF> Loaded 'amfrt64.dll'.
+[000:00:00:01.656.921.186][Debug] [AMF] <Plugin::AMD::AMF::AMF> AMF Library initialized.
+[000:00:00:01.657.419.356][Info] [AMF] Version 2.5.1 loaded (Compiled: 1.4.9.0, Runtime: 1.4.12.0, Library: 1;4;12;0;18.50.11.01;201901091852;CL#1728217).
+[000:00:00:01.657.452.869][Debug] [AMF] <Plugin::AMD::AMF::AMF> Initialized.
+[000:00:00:01.695.863.832][Debug] [AMF] [Capability Manager] Testing Direct3D 11 API...
+[000:00:00:01.724.626.040][Debug] [AMF] <Id: 1> Initialized.
+[000:00:00:01.725.080.590][Debug] [AMF] <Id: 1> Finalized.
+[000:00:00:01.752.981.041][Debug] [AMF] <Id: 2> Initialized.
+[000:00:00:01.755.348.746][Debug] [AMF] <Id: 2> Finalized.
+[000:00:00:01.755.364.970][Info] [AMF] [Capability Manager] Testing Direct3D 11 Adapter 'Radeon RX 590 Series (VEN_1002/DEV_67df/SUB_95871682/REV_00e1)':
+[000:00:00:01.755.364.970][Info]   H264/AVC: Supported
+[000:00:00:01.755.364.970][Info]   H265/HEVC: Supported
+[000:00:00:01.755.364.970][Info] 
+[000:00:00:01.755.391.833][Debug] [AMF] [Capability Manager] Testing Direct3D 9 API...
+[000:00:00:01.787.980.084][Debug] [AMF] <Id: 3> Initialized.
+[000:00:00:01.788.247.654][Debug] [AMF] <Id: 3> Finalized.
+[000:00:00:01.812.650.807][Debug] [AMF] <Id: 4> Initialized.
+[000:00:00:01.815.317.999][Debug] [AMF] <Id: 4> Finalized.
+[000:00:00:01.815.332.361][Info] [AMF] [Capability Manager] Testing Direct3D 9 Adapter 'Radeon RX 590 Series [\\.\DISPLAY2] (VEN_1002/DEV_67df/SUB_95871682/REV_00e1)':
+[000:00:00:01.815.332.361][Info]   H264/AVC: Supported
+[000:00:00:01.815.332.361][Info]   H265/HEVC: Supported
+[000:00:00:01.815.332.361][Info] 
+[000:00:00:01.815.376.513][Debug] [AMF] [H264/AVC] Registered.
+[000:00:00:01.815.440.347][Debug] [AMF] [H265/HEVC] Registered.
+[000:00:00:01.815.449.390][Debug] [AMF] <obs_module_load> Loaded.
+[000:00:00:01.815.460.029][Debug] ---------------------------------
+[000:00:00:01.819.853.395][Debug] Loading module: facemask-plugin.dll
+[000:00:00:01.820.051.280][Debug] ---------------------------------
+[000:00:00:01.820.597.325][Debug] Required module function 'obs_module_load' in module 'C:/Program Files/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/facemask_AVX.dll' not found, loading of module failed
+[000:00:00:01.820.614.614][Debug] ---------------------------------
+[000:00:00:01.821.090.442][Debug] Required module function 'obs_module_load' in module 'C:/Program Files/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/facemask_NO_AVX.dll' not found, loading of module failed
+[000:00:00:01.821.107.730][Debug] ---------------------------------
+[000:00:00:01.821.588.612][Debug] Loading module: image-source.dll
+[000:00:00:01.821.723.461][Debug] ---------------------------------
+[000:00:00:01.836.171.192][Debug] Required module function 'obs_module_load' in module 'C:/Program Files/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/libcef.dll' not found, loading of module failed
+[000:00:00:01.836.206.566][Debug] ---------------------------------
+[000:00:00:01.838.310.956][Debug] Required module function 'obs_module_load' in module 'C:/Program Files/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+[000:00:00:01.838.327.446][Debug] ---------------------------------
+[000:00:00:01.838.351.650][Debug] Required module function 'obs_module_load' in module 'C:/Program Files/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+[000:00:00:01.838.363.885][Debug] ---------------------------------
+[000:00:00:01.839.253.835][Debug] Loading module: obs-browser.dll
+[000:00:00:01.839.393.472][Info] [obs-browser]: Version 2.1.6
+[000:00:00:01.839.591.091][Debug] ---------------------------------
+[000:00:00:01.843.729.919][Debug] Loading module: obs-ffmpeg.dll
+[000:00:00:01.844.451.241][Debug] ---------------------------------
+[000:00:00:01.845.035.055][Debug] Loading module: obs-filters.dll
+[000:00:00:01.845.259.538][Debug] ---------------------------------
+[000:00:00:01.845.743.345][Debug] Loading module: obs-ndi.dll
+[000:00:00:01.845.886.173][Info] [obs-ndi] hello ! (version 4.5.3)
+[000:00:00:01.845.898.142][Error] [obs-ndi] Error when loading the library.
+[000:00:00:01.845.905.590][Warning] Failed to initialize module 'obs-ndi.dll'
+[000:00:00:01.845.916.761][Debug] ---------------------------------
+[000:00:00:01.847.746.665][Debug] Loading module: obs-outputs.dll
+[000:00:00:01.848.666.670][Debug] ---------------------------------
+[000:00:00:01.849.771.262][Debug] Loading module: obs-qsv11.dll
+[000:00:00:02.098.706.566][Debug] ---------------------------------
+[000:00:00:02.099.622.582][Debug] Loading module: obs-text.dll
+[000:00:00:02.100.405.345][Debug] ---------------------------------
+[000:00:00:02.101.048.471][Debug] Loading module: obs-transitions.dll
+[000:00:00:02.101.252.739][Debug] ---------------------------------
+[000:00:00:02.101.854.374][Debug] Loading module: obs-vst.dll
+[000:00:00:02.101.983.637][Debug] ---------------------------------
+[000:00:00:02.102.573.834][Debug] Loading module: obs-x264.dll
+[000:00:00:02.102.710.545][Debug] ---------------------------------
+[000:00:00:02.103.198.342][Debug] Loading module: rtmp-services.dll
+[000:00:00:02.103.502.351][Debug] ---------------------------------
+[000:00:00:02.104.061.961][Debug] Loading module: text-freetype2.dll
+[000:00:00:02.113.279.837][Debug] ---------------------------------
+[000:00:00:02.113.809.392][Debug] Loading module: vlc-video.dll
+[000:00:00:02.113.934.666][Info] Couldn't find VLC installation, VLC video source disabled
+[000:00:00:02.113.984.403][Debug] ---------------------------------
+[000:00:00:02.114.503.053][Debug] Loading module: win-capture.dll
+[000:00:00:02.114.713.971][Debug] ---------------------------------
+[000:00:00:02.115.216.131][Debug] Loading module: win-decklink.dll
+[000:00:00:02.115.964.051][Info] No blackmagic support
+[000:00:00:02.115.991.978][Debug] Failed to start search for DeckLink devices
+[000:00:00:02.116.001.553][Debug] ---------------------------------
+[000:00:00:02.116.656.914][Debug] Loading module: win-dshow.dll
+[000:00:00:02.117.890.238][Debug] ---------------------------------
+[000:00:00:02.118.466.604][Debug] Loading module: win-mf.dll
+[000:00:00:02.118.484.690][Debug] ---------------------------------
+[000:00:00:02.119.038.183][Debug] Loading module: win-wasapi.dll
+[000:00:00:02.121.239.122][Debug] service 'default_service' (rtmp_common) created
+[000:00:00:02.124.207.130][Debug] output 'simple_stream' (rtmp_output) created
+[000:00:00:02.124.305.807][Debug] output 'simple_file_output' (ffmpeg_muxer) created
+[000:00:00:02.124.419.644][Debug] output 'ReplayBuffer' (replay_buffer) created
+[000:00:00:02.124.451.295][Error] Encoder ID 'x264' not found
+[000:00:00:02.124.468.051][Debug] encoder 'streaming_h264' (x264) created
+[000:00:00:02.124.580.026][Debug] AAC encoder bitrate mapping:
+[000:00:00:02.124.580.026][Debug] 	 64 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	 96 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	128 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	160 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	192 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	224 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	256 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	288 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.580.026][Debug] 	320 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:02.124.656.627][Debug] encoder 'streaming_h264' destroyed
+[000:00:00:02.124.683.756][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:00:02.639.122.710][Debug] obs_encoder_update: Null 'encoder' parameter
+[000:00:00:02.639.168.723][Debug] encoder 'simple_h264_recording' (obs_x264) created
+[000:00:00:02.639.188.671][Info] ---------------------------------
+[000:00:00:02.639.199.842][Info] audio settings reset:
+[000:00:00:02.639.199.842][Info] 	samples per sec: 44100
+[000:00:00:02.639.199.842][Info] 	speakers:        2
+[000:00:00:02.656.991.670][Info] ---------------------------------
+[000:00:00:02.657.027.842][Info] video settings reset:
+[000:00:00:02.657.027.842][Info] 	base resolution:   1920x1080
+[000:00:00:02.657.027.842][Info] 	output resolution: 1920x1080
+[000:00:00:02.657.027.842][Info] 	downscale filter:  Bicubic
+[000:00:00:02.657.027.842][Info] 	fps:               60/1
+[000:00:00:02.657.027.842][Info] 	format:            NV12
+[000:00:00:02.657.027.842][Info] 	YUV mode:          601/Partial
+[000:00:00:02.657.189.289][Info] NV12 texture support enabled
+[000:00:00:02.658.970.253][Debug] encoder 'adv_aac0' (ffmpeg_aac) created
+[000:00:00:02.659.007.756][Debug] encoder 'adv_aac1' (ffmpeg_aac) created
+[000:00:00:02.659.033.023][Debug] encoder 'adv_aac2' (ffmpeg_aac) created
+[000:00:00:02.659.057.227][Debug] encoder 'adv_aac3' (ffmpeg_aac) created
+[000:00:00:02.659.087.548][Debug] encoder 'adv_aac4' (ffmpeg_aac) created
+[000:00:00:02.659.107.496][Debug] encoder 'adv_aac5' (ffmpeg_aac) created
+[000:00:00:02.659.122.657][Debug] obs_encoder_set_audio: Null 'encoder' parameter
+[000:00:00:02.659.139.945][Info] Audio monitoring device:
+[000:00:00:02.659.139.945][Info] 	name: Default
+[000:00:00:02.659.139.945][Info] 	id: default
+[000:00:00:03.982.004.968][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' (cut_transition) created
+[000:00:00:03.986.797.029][Debug] [image_source: 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\49.jpg'
+[000:00:00:04.059.082.229][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' (image_source) created
+[000:00:00:04.060.012.607][Debug] [image_source: 'image_source_76408afe-832f-4e47-8762-137b52b87597'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\57.png'
+[000:00:00:04.103.844.128][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' (image_source) created
+[000:00:00:04.104.757.750][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' (text_gdiplus) created
+[000:00:00:04.105.161.500][Debug] [image_source: 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\59.jpg'
+[000:00:00:04.151.613.933][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' (image_source) created
+[000:00:00:04.203.546.237][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' (text_gdiplus) created
+[000:00:00:04.204.189.097][Debug] [image_source: 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\67.png'
+[000:00:00:04.247.385.737][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' (image_source) created
+[000:00:00:04.248.294.306][Debug] [image_source: 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\68.png'
+[000:00:00:04.297.843.745][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' (image_source) created
+[000:00:00:04.298.407.611][Debug] [image_source: 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\69.png'
+[000:00:00:04.342.655.382][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' (image_source) created
+[000:00:00:04.343.341.862][Debug] [image_source: 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\70.jpg'
+[000:00:00:04.377.320.893][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' (image_source) created
+[000:00:00:04.378.089.559][Debug] [image_source: 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\78.png'
+[000:00:00:04.421.939.432][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' (image_source) created
+[000:00:00:04.423.146.158][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' (text_gdiplus) created
+[000:00:00:04.424.066.430][Debug] [image_source: 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\79.png'
+[000:00:00:04.431.059.961][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' (image_source) created
+[000:00:00:04.431.917.197][Debug] [image_source: 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\80.png'
+[000:00:00:04.433.236.164][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' (image_source) created
+[000:00:00:04.434.229.312][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' (text_gdiplus) created
+[000:00:00:04.438.577.196][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' (text_gdiplus) created
+[000:00:00:04.439.502.521][Debug] [image_source: 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\81.png'
+[000:00:00:04.440.815.637][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' (image_source) created
+[000:00:00:04.441.697.608][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' (text_gdiplus) created
+[000:00:00:04.442.482.765][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' (text_gdiplus) created
+[000:00:00:04.443.266.857][Debug] [image_source: 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\82.png'
+[000:00:00:04.444.800.732][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' (image_source) created
+[000:00:00:04.445.895.217][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' (text_gdiplus) created
+[000:00:00:04.446.899.004][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' (text_gdiplus) created
+[000:00:00:04.447.690.810][Debug] [image_source: 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\83.png'
+[000:00:00:04.457.105.773][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' (image_source) created
+[000:00:00:04.461.337.426][Debug] [image_source: 'image_source_f85de825-b049-4838-976c-88084ac4b494'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\84.png'
+[000:00:00:04.462.735.387][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' (image_source) created
+[000:00:00:04.463.910.994][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' (text_gdiplus) created
+[000:00:00:04.465.019.310][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' (text_gdiplus) created
+[000:00:00:04.465.891.440][Debug] [image_source: 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\85.png'
+[000:00:00:04.467.260.144][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' (image_source) created
+[000:00:00:04.468.265.793][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' (text_gdiplus) created
+[000:00:00:04.471.346.841][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' (text_gdiplus) created
+[000:00:00:04.472.238.387][Debug] [image_source: 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\86.png'
+[000:00:00:04.473.804.179][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' (image_source) created
+[000:00:00:04.474.669.660][Debug] [image_source: 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\87.png'
+[000:00:00:04.475.924.527][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' (image_source) created
+[000:00:00:04.476.915.016][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' (text_gdiplus) created
+[000:00:00:04.477.890.344][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' (text_gdiplus) created
+[000:00:00:04.478.859.023][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' (text_gdiplus) created
+[000:00:00:04.479.990.744][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' (text_gdiplus) created
+[000:00:00:04.481.801.498][Warning] [WASAPISource::TryInitialize]:[Speakers (5- Wireless Stereo Headset)] Failed to activate client context: 88890004
+[000:00:00:04.481.834.745][Info] [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{735ec661-8e27-46e6-932e-bc54fce3b8eb}' not found.  Waiting for device
+[000:00:00:04.481.897.781][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' (wasapi_output_capture) created
+[000:00:00:04.512.743.898][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:00:04.512.809.062][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' (wasapi_input_capture) created
+[000:00:00:04.514.552.790][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' (dshow_input) created
+[000:00:00:04.516.089.591][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' (game_capture) created
+[000:00:00:04.517.543.673][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' (browser_source) created
+[000:00:00:04.518.806.253][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' (browser_source) created
+[000:00:00:04.520.400.504][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' (game_capture) created
+[000:00:00:04.521.839.426][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' (browser_source) created
+[000:00:00:04.523.178.075][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' (game_capture) created
+[000:00:00:04.527.439.251][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' (monitor_capture) created
+[000:00:00:04.559.818.180][Debug] DShow: Video media type changed
+[000:00:00:04.560.505.192][Debug] DShow: Video media type changed
+[000:00:00:04.565.345.128][Info] ---------------------------------
+[000:00:00:04.565.371.992][Info] [DShow Device: 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9'] settings updated: 
+[000:00:00:04.565.371.992][Info] 	video device: DroidCam Source 3
+[000:00:00:04.565.371.992][Info] 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+[000:00:00:04.565.371.992][Info] 	resolution: 640x480
+[000:00:00:04.565.371.992][Info] 	fps: 29.97 (interval: 333667)
+[000:00:00:04.565.371.992][Info] 	format: XRGB
+[000:00:00:04.566.005.011][Warning] DShow: HDevice::ConnectPins: failed to connect pins (0x80040207): The owner SID on a per-user subscription doesn't exist
+[000:00:00:04.566.005.011][Warning] 
+[000:00:00:04.568.276.698][Info] adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3)
+[000:00:00:04.568.276.698][Info] 
+[000:00:00:04.693.457.827][Debug] DShow: Loaded filters:
+[000:00:00:04.693.484.956][Debug] DShow: 	Capture Filter
+[000:00:00:04.693.493.733][Debug] DShow: 	Color Space Converter
+[000:00:00:04.693.502.245][Debug] DShow: 	Smart Tee
+[000:00:00:04.693.512.352][Debug] DShow: 	Video Filter
+[000:00:00:04.738.761.783][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' (scene) created
+[000:00:00:04.740.122.242][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' (scene) created
+[000:00:00:04.741.819.159][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' (scene) created
+[000:00:00:04.742.958.061][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' (scene) created
+[000:00:00:04.743.972.221][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' (scene) created
+[000:00:00:04.744.951.805][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' (scene) created
+[000:00:00:04.750.361.991][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:00:04.750.729.302][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:00:04.752.042.949][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' (scene) created
+[000:00:00:04.753.358.193][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:00:04.753.532.938][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:00:04.764.838.713][Debug] source '4555f629-8ed6-4e0c-86ba-929c3908e653' (cut_transition) created
+[000:00:00:05.109.347.671][Info] [WASAPISource::WASAPISource] Device 'does_not_exist' not found.  Waiting for device
+[000:00:00:05.109.408.313][Debug] source '7d6ed71e-aceb-48cb-9054-3c18299c14cb' (wasapi_input_capture) created
+[000:00:00:05.109.922.176][Info] [WASAPISource::WASAPISource] Device 'does_not_exist' not found.  Waiting for device
+[000:00:00:05.109.966.593][Debug] source 'c9059e36-c3ce-406e-899f-81d4a68bafdf' (wasapi_output_capture) created
+[000:00:00:05.110.567.164][Debug] source 'd92c64ee-5323-484f-be73-99a29825bddf' (dshow_input) created
+[000:00:00:05.111.772.560][Warning] d92c64ee-5323-484f-be73-99a29825bddf: DecodeDeviceId failed
+[000:00:00:05.111.827.085][Warning] d92c64ee-5323-484f-be73-99a29825bddf: Video configuration failed
+[000:00:00:05.140.820.425][Debug] source '7d6ed71e-aceb-48cb-9054-3c18299c14cb' destroyed
+[000:00:00:05.141.253.165][Debug] source 'c9059e36-c3ce-406e-899f-81d4a68bafdf' destroyed
+[000:00:00:05.141.487.754][Debug] source 'd92c64ee-5323-484f-be73-99a29825bddf' destroyed
+[000:00:00:05.401.903.313][Debug] [image_source: 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\87.png'
+[000:00:00:05.402.844.596][Debug] [image_source: 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\86.png'
+[000:00:00:05.403.693.587][Debug] [image_source: 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\85.png'
+[000:00:00:05.404.271.549][Debug] [image_source: 'image_source_f85de825-b049-4838-976c-88084ac4b494'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\84.png'
+[000:00:00:05.404.880.631][Debug] [image_source: 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\83.png'
+[000:00:00:05.412.524.735][Debug] [image_source: 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\82.png'
+[000:00:00:05.413.574.005][Debug] [image_source: 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\81.png'
+[000:00:00:05.414.256.761][Debug] [image_source: 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\80.png'
+[000:00:00:05.414.892.706][Debug] [image_source: 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\79.png'
+[000:00:00:05.421.684.629][Debug] [image_source: 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\69.png'
+[000:00:00:05.468.653.850][Debug] [image_source: 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\68.png'
+[000:00:00:05.508.669.436][Debug] [image_source: 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\67.png'
+[000:00:00:05.555.692.650][Debug] [image_source: 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\59.jpg'
+[000:00:00:05.573.544.322][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:00:05.596.029.800][Debug] [image_source: 'image_source_76408afe-832f-4e47-8762-137b52b87597'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\57.png'
+[000:00:00:05.648.127.806][Debug] [image_source: 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\49.jpg'
+[000:00:00:05.665.315.871][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:00:05.692.735.972][Debug] [image_source: 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\78.png'
+[000:00:00:05.738.816.307][Debug] [image_source: 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\70.jpg'
+[000:00:00:05.752.749.377][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:01:46.735.172.192][Info] adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3)
+[000:00:01:46.735.172.192][Info] 
+[000:00:03:37.676.850.384][Debug] source 'fake tmp dshow device' (dshow_input) created
+[000:00:03:37.677.867.736][Warning] fake tmp dshow device: DecodeDeviceId failed
+[000:00:03:37.677.894.334][Warning] fake tmp dshow device: Video configuration failed
+[000:00:03:37.686.715.907][Debug] source 'fake tmp dshow device' destroyed
+[000:00:04:27.139.417.941][Info] adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3)
+[000:00:04:27.139.417.941][Info] 
+[000:00:06:00.643.782.316][Debug] source 'browser_source_ec76fcbd-b4b8-414b-8554-13903906b816' (browser_source) created
+[000:00:06:00.800.822.925][Debug] <OBS::Display::SetPosition> Adjusting display position for source browser_source_ec76fcbd-b4b8-414b-8554-13903906b816 to 203x359.
+[000:00:06:00.801.960.763][Debug] <OBS::Display::SetSize> Adjusting display size for source browser_source_ec76fcbd-b4b8-414b-8554-13903906b816 to 434x396.
+[000:00:06:32.241.096.240][Debug] source 'browser_source_ec76fcbd-b4b8-414b-8554-13903906b816' destroyed
+[000:00:07:03.502.566.387][Info] adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3)
+[000:00:07:03.502.566.387][Info] 
+[000:00:11:21.352.555.216][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:11:21.358.816.786][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] using helper (compatibility hook)
+[000:00:11:21.363.925.091][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] hook not loaded yet, retrying..
+[000:00:11:24.369.208.673][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:11:24.375.162.244][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:11:24.375.214.641][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:11:25.485.732.334][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:00:11:28.385.539.502][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:11:28.389.609.177][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:11:28.389.642.424][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:11:28.401.852.778][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] hook stop signal received
+[000:00:11:28.402.202.002][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:00:11:32.402.359.459][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:11:32.408.046.258][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:11:32.408.161.159][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:11:32.418.515.277][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture initializing!
+[000:00:11:32.418.553.844][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_Texture2
+[000:00:11:32.418.579.111][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] Starting capture
+[000:00:11:32.418.691.352][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] shared texture capture successful
+[000:00:47:08.407.805.817][Debug] <OBS::Display::SetPosition> Adjusting display position for source wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863 to 0x30.
+[000:00:47:08.408.443.624][Debug] <OBS::Display::SetSize> Adjusting display size for source wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863 to 600x200.
+[000:00:47:11.714.045.311][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:48:26.408.348.405][Debug] source '4555f629-8ed6-4e0c-86ba-929c3908e653' destroyed
+[000:00:48:26.435.606.528][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:00:48:44.337.626.338][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:48:44.342.185.671][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:48:44.342.224.504][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:48:44.355.414.973][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture initializing!
+[000:00:48:44.355.462.849][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_Texture3
+[000:00:48:44.355.502.213][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] Starting capture
+[000:00:48:44.355.637.062][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] shared texture capture successful
+[000:00:52:41.167.758.846][Debug] service 'default_service' (rtmp_common) created
+[000:00:52:41.167.786.773][Debug] service 'default_service' destroyed
+[000:00:52:41.929.468.636][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' destroyed
+[000:00:52:41.932.482.392][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' destroyed
+[000:00:52:41.936.959.540][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' destroyed
+[000:00:52:41.939.694.555][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' destroyed
+[000:00:52:41.944.304.424][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' destroyed
+[000:00:52:41.945.869.417][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' destroyed
+[000:00:52:41.947.890.823][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' destroyed
+[000:00:52:41.949.239.579][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' destroyed
+[000:00:52:41.951.081.452][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' destroyed
+[000:00:52:41.952.757.623][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' destroyed
+[000:00:52:41.956.272.475][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' destroyed
+[000:00:52:41.958.578.207][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' destroyed
+[000:00:52:41.960.373.268][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' destroyed
+[000:00:52:41.964.831.000][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' destroyed
+[000:00:52:41.966.409.824][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' destroyed
+[000:00:52:41.967.780.124][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' destroyed
+[000:00:52:41.969.420.920][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' destroyed
+[000:00:52:41.970.901.068][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' destroyed
+[000:00:52:41.976.078.526][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' destroyed
+[000:00:52:41.978.366.970][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' destroyed
+[000:00:52:41.980.609.932][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' destroyed
+[000:00:52:41.982.608.198][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' destroyed
+[000:00:52:41.984.530.927][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' destroyed
+[000:00:52:41.986.538.768][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:52:41.986.574.409][Debug] private source 'Crop/Pad' destroyed
+[000:00:52:41.986.641.966][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' destroyed
+[000:00:52:41.990.889.046][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' destroyed
+[000:00:52:41.992.171.043][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' destroyed
+[000:00:52:41.993.635.232][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' destroyed
+[000:00:52:41.994.691.150][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' destroyed
+[000:00:52:41.995.657.967][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' destroyed
+[000:00:52:41.997.191.044][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' destroyed
+[000:00:52:41.998.189.246][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' destroyed
+[000:00:52:41.999.692.001][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' destroyed
+[000:00:52:42.000.460.668][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' destroyed
+[000:00:52:42.001.425.623][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' destroyed
+[000:00:52:42.007.500.479][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' destroyed
+[000:00:52:42.010.018.193][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' destroyed
+[000:00:52:42.011.728.674][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' destroyed
+[000:00:52:42.019.472.785][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:52:42.019.514.277][Debug] private source 'Crop/Pad' destroyed
+[000:00:52:42.019.588.484][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' destroyed
+[000:00:52:42.025.950.592][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' destroyed
+[000:00:52:42.032.151.520][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' destroyed
+[000:00:52:42.040.150.435][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' destroyed
+[000:00:52:42.057.079.441][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' destroyed
+[000:00:52:42.077.072.739][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' destroyed
+[000:00:52:42.078.151.265][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' destroyed
+[000:00:52:42.078.926.314][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' destroyed
+[000:00:52:42.079.529.278][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:00:52:42.079.954.305][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' destroyed
+[000:00:52:42.080.402.738][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' destroyed
+[000:00:52:42.080.697.970][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' destroyed
+[000:00:52:42.130.675.628][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' destroyed
+[000:00:52:42.130.792.125][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:52:42.174.654.499][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' destroyed
+[000:00:52:42.174.734.025][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:52:42.376.321.361][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' (cut_transition) created
+[000:00:52:42.378.069.079][Debug] [image_source: 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\49.jpg'
+[000:00:52:42.396.287.529][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:52:42.420.607.698][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' (image_source) created
+[000:00:52:42.421.772.400][Debug] [image_source: 'image_source_76408afe-832f-4e47-8762-137b52b87597'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\57.png'
+[000:00:52:42.470.393.589][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' (image_source) created
+[000:00:52:42.472.027.470][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' (text_gdiplus) created
+[000:00:52:42.473.084.186][Debug] [image_source: 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\59.jpg'
+[000:00:52:42.492.303.764][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:52:42.512.256.899][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' (image_source) created
+[000:00:52:42.513.085.410][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' (text_gdiplus) created
+[000:00:52:42.513.693.427][Debug] [image_source: 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\67.png'
+[000:00:52:42.562.115.135][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' (image_source) created
+[000:00:52:42.563.057.482][Debug] [image_source: 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\68.png'
+[000:00:52:42.602.330.734][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' (image_source) created
+[000:00:52:42.603.132.115][Debug] [image_source: 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\69.png'
+[000:00:52:42.651.315.243][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' (image_source) created
+[000:00:52:42.652.213.705][Debug] [image_source: 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\70.jpg'
+[000:00:52:42.667.324.776][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:52:42.688.018.916][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' (image_source) created
+[000:00:52:42.688.926.421][Debug] [image_source: 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\78.png'
+[000:00:52:42.739.532.310][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' (image_source) created
+[000:00:52:42.740.435.028][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' (text_gdiplus) created
+[000:00:52:42.740.959.529][Debug] [image_source: 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\79.png'
+[000:00:52:42.747.315.254][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' (image_source) created
+[000:00:52:42.747.887.099][Debug] [image_source: 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\80.png'
+[000:00:52:42.748.534.215][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' (image_source) created
+[000:00:52:42.749.212.184][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' (text_gdiplus) created
+[000:00:52:42.749.724.982][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' (text_gdiplus) created
+[000:00:52:42.750.178.469][Debug] [image_source: 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\81.png'
+[000:00:52:42.750.856.438][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' (image_source) created
+[000:00:52:42.751.362.587][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' (text_gdiplus) created
+[000:00:52:42.754.554.014][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' (text_gdiplus) created
+[000:00:52:42.755.273.475][Debug] [image_source: 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\82.png'
+[000:00:52:42.755.900.376][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' (image_source) created
+[000:00:52:42.756.807.083][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' (text_gdiplus) created
+[000:00:52:42.757.747.037][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' (text_gdiplus) created
+[000:00:52:42.758.462.508][Debug] [image_source: 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\83.png'
+[000:00:52:42.766.645.743][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' (image_source) created
+[000:00:52:42.767.365.736][Debug] [image_source: 'image_source_f85de825-b049-4838-976c-88084ac4b494'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\84.png'
+[000:00:52:42.768.265.261][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' (image_source) created
+[000:00:52:42.770.355.820][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' (text_gdiplus) created
+[000:00:52:42.771.208.534][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' (text_gdiplus) created
+[000:00:52:42.771.752.186][Debug] [image_source: 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\85.png'
+[000:00:52:42.772.476.966][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' (image_source) created
+[000:00:52:42.773.341.915][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' (text_gdiplus) created
+[000:00:52:42.774.147.552][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' (text_gdiplus) created
+[000:00:52:42.774.656.893][Debug] [image_source: 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\86.png'
+[000:00:52:42.775.199.747][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' (image_source) created
+[000:00:52:42.775.672.117][Debug] [image_source: 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\87.png'
+[000:00:52:42.776.105.390][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' (image_source) created
+[000:00:52:42.776.758.091][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' (text_gdiplus) created
+[000:00:52:42.777.381.535][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' (text_gdiplus) created
+[000:00:52:42.777.924.921][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' (text_gdiplus) created
+[000:00:52:42.778.406.068][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' (text_gdiplus) created
+[000:00:52:42.795.009.522][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:52:42.795.055.535][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:52:42.795.081.867][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' (wasapi_output_capture) created
+[000:00:52:42.809.275.858][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:52:42.809.312.562][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' (wasapi_input_capture) created
+[000:00:52:42.810.048.780][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' (dshow_input) created
+[000:00:52:42.810.653.871][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' (game_capture) created
+[000:00:52:42.811.031.821][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' (browser_source) created
+[000:00:52:42.811.392.216][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' (browser_source) created
+[000:00:52:42.811.769.634][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' (game_capture) created
+[000:00:52:42.812.227.376][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' (browser_source) created
+[000:00:52:42.812.823.425][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' (game_capture) created
+[000:00:52:42.814.843.766][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' (monitor_capture) created
+[000:00:52:42.816.621.274][Debug] DShow: Video media type changed
+[000:00:52:42.816.843.628][Debug] DShow: Video media type changed
+[000:00:52:42.817.146.041][Info] ---------------------------------
+[000:00:52:42.817.162.000][Info] [DShow Device: 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9'] settings updated: 
+[000:00:52:42.817.162.000][Info] 	video device: DroidCam Source 3
+[000:00:52:42.817.162.000][Info] 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+[000:00:52:42.817.162.000][Info] 	resolution: 640x480
+[000:00:52:42.817.162.000][Info] 	fps: 29.97 (interval: 333667)
+[000:00:52:42.817.162.000][Info] 	format: XRGB
+[000:00:52:42.817.429.038][Warning] DShow: HDevice::ConnectPins: failed to connect pins (0x80040207): The owner SID on a per-user subscription doesn't exist
+[000:00:52:42.817.429.038][Warning] 
+[000:00:52:42.903.488.520][Debug] DShow: Loaded filters:
+[000:00:52:42.903.538.258][Debug] DShow: 	Capture Filter
+[000:00:52:42.903.554.748][Debug] DShow: 	Color Space Converter
+[000:00:52:42.903.568.047][Debug] DShow: 	Smart Tee
+[000:00:52:42.903.579.484][Debug] DShow: 	Video Filter
+[000:00:52:42.958.799.764][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' (scene) created
+[000:00:52:42.960.454.923][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' (scene) created
+[000:00:52:42.961.550.737][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' (scene) created
+[000:00:52:42.962.753.739][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' (scene) created
+[000:00:52:42.963.843.703][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' (scene) created
+[000:00:52:42.964.891.110][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' (scene) created
+[000:00:52:42.966.010.330][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:52:42.966.166.723][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:52:42.967.104.815][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' (scene) created
+[000:00:52:42.968.286.805][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:52:42.968.490.542][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:52:42.980.099.793][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' destroyed
+[000:00:52:42.980.212.567][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' destroyed
+[000:00:52:42.986.942.517][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:52:42.992.435.953][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:52:42.992.484.627][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:52:43.001.767.400][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture initializing!
+[000:00:52:43.001.809.690][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_Texture4
+[000:00:52:43.001.849.054][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] Starting capture
+[000:00:52:43.002.025.395][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] shared texture capture successful
+[000:00:52:43.219.557.897][Debug] [image_source: 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\80.png'
+[000:00:52:43.220.817.818][Debug] [image_source: 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\79.png'
+[000:00:52:43.231.082.835][Debug] [image_source: 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\78.png'
+[000:00:52:43.292.577.186][Debug] [image_source: 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\70.jpg'
+[000:00:52:43.314.869.300][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:52:43.341.344.394][Debug] [image_source: 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\69.png'
+[000:00:52:43.395.226.291][Debug] [image_source: 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\68.png'
+[000:00:52:43.438.121.050][Debug] [image_source: 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\67.png'
+[000:00:52:43.489.881.535][Debug] [image_source: 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\59.jpg'
+[000:00:52:43.508.645.764][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:52:43.534.872.970][Debug] [image_source: 'image_source_76408afe-832f-4e47-8762-137b52b87597'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\57.png'
+[000:00:52:43.583.257.442][Debug] [image_source: 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\49.jpg'
+[000:00:52:43.598.272.230][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:52:43.618.481.765][Debug] [image_source: 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\87.png'
+[000:00:52:43.620.129.210][Debug] [image_source: 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\86.png'
+[000:00:52:43.621.270.241][Debug] [image_source: 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\85.png'
+[000:00:52:43.622.243.973][Debug] [image_source: 'image_source_f85de825-b049-4838-976c-88084ac4b494'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\84.png'
+[000:00:52:43.622.998.808][Debug] [image_source: 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\83.png'
+[000:00:52:43.630.382.790][Debug] [image_source: 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\82.png'
+[000:00:52:43.631.120.869][Debug] [image_source: 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\81.png'
+[000:00:53:58.834.263.357][Debug] service 'default_service' (rtmp_common) created
+[000:00:53:58.834.310.169][Debug] service 'default_service' destroyed
+[000:00:53:59.258.172.862][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' destroyed
+[000:00:53:59.260.837.926][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' destroyed
+[000:00:53:59.263.874.822][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' destroyed
+[000:00:53:59.265.762.442][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' destroyed
+[000:00:53:59.269.559.759][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' destroyed
+[000:00:53:59.271.970.019][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' destroyed
+[000:00:53:59.276.912.090][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' destroyed
+[000:00:53:59.279.461.455][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' destroyed
+[000:00:53:59.284.031.161][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' destroyed
+[000:00:53:59.287.677.671][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' destroyed
+[000:00:53:59.289.071.909][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' destroyed
+[000:00:53:59.291.342.532][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' destroyed
+[000:00:53:59.292.868.162][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' destroyed
+[000:00:53:59.295.902.664][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' destroyed
+[000:00:53:59.297.275.624][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' destroyed
+[000:00:53:59.299.840.149][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' destroyed
+[000:00:53:59.302.956.306][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' destroyed
+[000:00:53:59.304.909.622][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' destroyed
+[000:00:53:59.306.841.394][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' destroyed
+[000:00:53:59.308.355.320][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' destroyed
+[000:00:53:59.310.726.216][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' destroyed
+[000:00:53:59.311.849.692][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' destroyed
+[000:00:53:59.312.955.348][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' destroyed
+[000:00:53:59.313.974.828][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:53:59.314.005.681][Debug] private source 'Crop/Pad' destroyed
+[000:00:53:59.314.060.738][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' destroyed
+[000:00:53:59.317.691.023][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' destroyed
+[000:00:53:59.319.177.022][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' destroyed
+[000:00:53:59.320.142.509][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' destroyed
+[000:00:53:59.321.030.066][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' destroyed
+[000:00:53:59.321.860.970][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' destroyed
+[000:00:53:59.322.608.890][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' destroyed
+[000:00:53:59.323.491.127][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' destroyed
+[000:00:53:59.324.373.630][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' destroyed
+[000:00:53:59.325.559.344][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' destroyed
+[000:00:53:59.326.588.665][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' destroyed
+[000:00:53:59.327.686.076][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' destroyed
+[000:00:53:59.328.714.333][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' destroyed
+[000:00:53:59.330.048.460][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' destroyed
+[000:00:53:59.331.054.376][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:53:59.331.092.676][Debug] private source 'Crop/Pad' destroyed
+[000:00:53:59.331.166.351][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' destroyed
+[000:00:53:59.332.261.900][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' destroyed
+[000:00:53:59.332.912.207][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' destroyed
+[000:00:53:59.338.000.564][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' destroyed
+[000:00:53:59.351.764.474][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' destroyed
+[000:00:53:59.359.038.077][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' destroyed
+[000:00:53:59.359.996.383][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' destroyed
+[000:00:53:59.360.966.125][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' destroyed
+[000:00:53:59.361.513.767][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:00:53:59.361.830.808][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' destroyed
+[000:00:53:59.362.066.196][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' destroyed
+[000:00:53:59.362.331.106][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' destroyed
+[000:00:53:59.400.802.977][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' destroyed
+[000:00:53:59.400.968.679][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:53:59.451.636.009][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' destroyed
+[000:00:53:59.451.728.036][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:53:59.747.534.417][Debug] source '9b804f63-8d31-438f-81a9-c7265e587336' (cut_transition) created
+[000:00:53:59.767.780.390][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:53:59.767.827.202][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:53:59.767.855.927][Debug] source 'wasapi_output_capture_59f79658-fe40-4c80-9ae2-4ce3153a5bc4' (wasapi_output_capture) created
+[000:00:53:59.782.696.768][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:53:59.782.751.558][Debug] source 'wasapi_input_capture_88fa0a56-122c-4d0c-9890-83bad7543eb9' (wasapi_input_capture) created
+[000:00:53:59.791.976.349][Debug] source 'scene_f5f8682d-d6d3-49c0-9266-ac266b0dd0e0' (scene) created
+[000:00:53:59.793.358.618][Debug] source '26e0d1a6-d894-44ab-9ca1-abd42de54e4f' (cut_transition) created
+[000:00:53:59.793.756.250][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' destroyed
+[000:00:53:59.793.879.662][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' destroyed
+[000:00:55:27.151.422.697][Debug] source '26e0d1a6-d894-44ab-9ca1-abd42de54e4f' destroyed
+[000:00:55:31.817.766.027][Debug] source 'wasapi_output_capture_59f79658-fe40-4c80-9ae2-4ce3153a5bc4' destroyed
+[000:00:55:31.817.916.569][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:55:31.868.517.671][Debug] source 'wasapi_input_capture_88fa0a56-122c-4d0c-9890-83bad7543eb9' destroyed
+[000:00:55:31.868.572.196][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:55:32.984.119.997][Debug] source 'browser_source_cfe0b3b0-f06a-4483-993b-2762898e9d02' (browser_source) created
+[000:00:55:32.985.902.823][Debug] source 'browser_source_405965f7-0454-4a37-b52f-63f0d4d15bd9' (browser_source) created
+[000:00:55:32.987.360.363][Debug] source 'browser_source_966e8aaa-4899-4d8d-9d62-49b8f9ef5fd6' (browser_source) created
+[000:00:55:32.988.628.263][Debug] source 'game_capture_98b70826-75e6-444e-a011-153be4173fec' (game_capture) created
+[000:00:55:32.989.706.524][Debug] source 'game_capture_14fb7d7a-d0d3-4607-9afe-82519ca522f6' (game_capture) created
+[000:00:55:32.990.960.061][Debug] source 'scene_71bc4434-dcd3-417c-ad8b-395ea733275e' (scene) created
+[000:00:55:32.991.921.559][Debug] source '31e66cb4-483e-49a4-957a-325e53e84122' (cut_transition) created
+[000:00:55:32.992.480.637][Debug] source 'd417f033-f4f1-41c5-a600-83c27e999e9c' (cut_transition) created
+[000:00:55:32.992.760.974][Debug] source 'scene_f5f8682d-d6d3-49c0-9266-ac266b0dd0e0' destroyed
+[000:00:55:32.992.835.447][Debug] source '9b804f63-8d31-438f-81a9-c7265e587336' destroyed
+[000:00:55:33.032.948.911][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:55:33.032.993.861][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:55:33.033.023.650][Debug] source 'wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6' (wasapi_output_capture) created
+[000:00:55:33.052.305.732][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:55:33.052.347.756][Debug] source 'wasapi_input_capture_aa26ca94-c943-4901-b219-e926bd1a1a2f' (wasapi_input_capture) created
+[000:00:55:33.085.408.377][Info] ---------------------------------
+[000:00:55:33.085.446.145][Info] video settings reset:
+[000:00:55:33.085.446.145][Info] 	base resolution:   1920x1080
+[000:00:55:33.085.446.145][Info] 	output resolution: 1920x1080
+[000:00:55:33.085.446.145][Info] 	downscale filter:  Bicubic
+[000:00:55:33.085.446.145][Info] 	fps:               60/1
+[000:00:55:33.085.446.145][Info] 	format:            NV12
+[000:00:55:33.085.446.145][Info] 	YUV mode:          601/Partial
+[000:00:55:33.085.627.540][Info] NV12 texture support enabled
+[000:00:55:33.091.868.630][Info] ---------------------------------
+[000:00:55:33.091.890.706][Info] audio settings reset:
+[000:00:55:33.091.890.706][Info] 	samples per sec: 44100
+[000:00:55:33.091.890.706][Info] 	speakers:        2
+[000:00:55:33.108.307.977][Debug] source 'browser_source_966e8aaa-4899-4d8d-9d62-49b8f9ef5fd6' destroyed
+[000:00:55:33.108.697.098][Debug] source 'browser_source_405965f7-0454-4a37-b52f-63f0d4d15bd9' destroyed
+[000:00:55:33.113.304.572][Debug] source 'browser_source_cfe0b3b0-f06a-4483-993b-2762898e9d02' destroyed
+[000:00:55:33.114.677.001][Info] adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6)
+[000:00:55:33.114.677.001][Info] 
+[000:00:55:33.119.793.019][Debug] source 'game_capture_98b70826-75e6-444e-a011-153be4173fec' destroyed
+[000:00:55:33.120.096.229][Debug] source 'game_capture_14fb7d7a-d0d3-4607-9afe-82519ca522f6' destroyed
+[000:00:55:33.137.357.704][Debug] source 'wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6' destroyed
+[000:00:55:33.137.439.358][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:55:33.155.875.375][Debug] source 'wasapi_input_capture_aa26ca94-c943-4901-b219-e926bd1a1a2f' destroyed
+[000:00:55:33.155.928.836][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:55:33.160.460.774][Debug] source '31e66cb4-483e-49a4-957a-325e53e84122' destroyed
+[000:00:55:33.459.723.493][Debug] source '31e66cb4-483e-49a4-957a-325e53e84122' (cut_transition) created
+[000:00:55:33.460.591.633][Debug] source 'browser_source_cfe0b3b0-f06a-4483-993b-2762898e9d02' (browser_source) created
+[000:00:55:33.461.119.859][Debug] source 'browser_source_405965f7-0454-4a37-b52f-63f0d4d15bd9' (browser_source) created
+[000:00:55:33.461.641.700][Debug] source 'browser_source_966e8aaa-4899-4d8d-9d62-49b8f9ef5fd6' (browser_source) created
+[000:00:55:33.462.073.643][Debug] source 'game_capture_98b70826-75e6-444e-a011-153be4173fec' (game_capture) created
+[000:00:55:33.462.554.259][Debug] source 'game_capture_14fb7d7a-d0d3-4607-9afe-82519ca522f6' (game_capture) created
+[000:00:55:33.477.576.228][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:55:33.477.615.060][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:55:33.477.633.679][Debug] source 'wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6' (wasapi_output_capture) created
+[000:00:55:33.491.390.940][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:55:33.491.431.102][Debug] source 'wasapi_input_capture_aa26ca94-c943-4901-b219-e926bd1a1a2f' (wasapi_input_capture) created
+[000:00:55:33.502.358.395][Debug] source 'scene_71bc4434-dcd3-417c-ad8b-395ea733275e' (scene) created
+[000:00:55:33.506.590.048][Debug] source 'scene_71bc4434-dcd3-417c-ad8b-395ea733275e' destroyed
+[000:00:55:33.506.668.777][Debug] source 'd417f033-f4f1-41c5-a600-83c27e999e9c' destroyed
+[000:00:55:45.160.845.373][Debug] source 'browser_source_966e8aaa-4899-4d8d-9d62-49b8f9ef5fd6' destroyed
+[000:00:55:45.161.475.466][Debug] source 'browser_source_405965f7-0454-4a37-b52f-63f0d4d15bd9' destroyed
+[000:00:55:45.162.063.536][Debug] source 'browser_source_cfe0b3b0-f06a-4483-993b-2762898e9d02' destroyed
+[000:00:55:45.164.058.610][Debug] source 'game_capture_98b70826-75e6-444e-a011-153be4173fec' destroyed
+[000:00:55:45.164.539.226][Debug] source 'game_capture_14fb7d7a-d0d3-4607-9afe-82519ca522f6' destroyed
+[000:00:55:45.214.220.854][Debug] source 'wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6' destroyed
+[000:00:55:45.214.303.572][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:55:45.261.063.738][Debug] source 'wasapi_input_capture_aa26ca94-c943-4901-b219-e926bd1a1a2f' destroyed
+[000:00:55:45.261.156.829][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:55:45.907.695.970][Debug] source 'browser_source_0eccb8b9-a563-4e72-9ebe-3bcd424358ea' (browser_source) created
+[000:00:55:45.909.008.554][Debug] source 'browser_source_1f5e7bea-21c3-4575-849e-49d5989c354e' (browser_source) created
+[000:00:55:45.910.490.829][Debug] source 'browser_source_8186b630-43f5-4b34-b863-2babed528159' (browser_source) created
+[000:00:55:45.911.937.464][Debug] source 'game_capture_b4099cd6-59b8-47cb-aa9c-0a217fef9b3e' (game_capture) created
+[000:00:55:45.915.130.487][Debug] source 'game_capture_b4a7d3e7-523f-4818-b85c-45fdc102633e' (game_capture) created
+[000:00:55:45.916.948.954][Debug] source 'scene_c5cff7f0-4927-4d75-b384-cb46b7e5dec2' (scene) created
+[000:00:55:45.918.255.952][Debug] source '2e1ba855-9e2f-4114-9e92-cc897ed4885d' (cut_transition) created
+[000:00:55:45.919.132.072][Debug] source '0f09c6c7-5398-438d-a060-1f43c2b28d98' (cut_transition) created
+[000:00:55:45.919.505.766][Debug] source 'scene_71bc4434-dcd3-417c-ad8b-395ea733275e' destroyed
+[000:00:55:45.919.596.463][Debug] source '31e66cb4-483e-49a4-957a-325e53e84122' destroyed
+[000:00:55:45.956.251.463][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:55:45.956.304.392][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:55:45.956.340.032][Debug] source 'wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29' (wasapi_output_capture) created
+[000:00:55:45.977.311.052][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:55:45.977.358.661][Debug] source 'wasapi_input_capture_212cf0d0-0b16-4f91-824c-ba0af21429cc' (wasapi_input_capture) created
+[000:00:55:46.020.966.232][Info] ---------------------------------
+[000:00:55:46.021.005.064][Info] video settings reset:
+[000:00:55:46.021.005.064][Info] 	base resolution:   1920x1080
+[000:00:55:46.021.005.064][Info] 	output resolution: 1920x1080
+[000:00:55:46.021.005.064][Info] 	downscale filter:  Bicubic
+[000:00:55:46.021.005.064][Info] 	fps:               60/1
+[000:00:55:46.021.005.064][Info] 	format:            NV12
+[000:00:55:46.021.005.064][Info] 	YUV mode:          601/Partial
+[000:00:55:46.021.222.365][Info] NV12 texture support enabled
+[000:00:55:46.026.370.300][Info] ---------------------------------
+[000:00:55:46.026.435.730][Info] audio settings reset:
+[000:00:55:46.026.435.730][Info] 	samples per sec: 44100
+[000:00:55:46.026.435.730][Info] 	speakers:        2
+[000:00:55:46.044.262.666][Debug] source 'browser_source_8186b630-43f5-4b34-b863-2babed528159' destroyed
+[000:00:55:46.045.177.618][Debug] source 'browser_source_1f5e7bea-21c3-4575-849e-49d5989c354e' destroyed
+[000:00:55:46.048.993.819][Info] adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29)
+[000:00:55:46.048.993.819][Info] 
+[000:00:55:46.051.129.061][Debug] source 'browser_source_0eccb8b9-a563-4e72-9ebe-3bcd424358ea' destroyed
+[000:00:55:46.055.824.042][Debug] source 'game_capture_b4099cd6-59b8-47cb-aa9c-0a217fef9b3e' destroyed
+[000:00:55:46.056.181.245][Debug] source 'game_capture_b4a7d3e7-523f-4818-b85c-45fdc102633e' destroyed
+[000:00:55:46.061.738.515][Debug] source 'wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29' destroyed
+[000:00:55:46.061.822.297][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:55:46.081.644.573][Debug] source 'wasapi_input_capture_212cf0d0-0b16-4f91-824c-ba0af21429cc' destroyed
+[000:00:55:46.081.700.694][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:55:46.087.027.363][Debug] source '2e1ba855-9e2f-4114-9e92-cc897ed4885d' destroyed
+[000:00:55:46.374.320.169][Debug] source '2e1ba855-9e2f-4114-9e92-cc897ed4885d' (cut_transition) created
+[000:00:55:46.375.112.507][Debug] source 'browser_source_0eccb8b9-a563-4e72-9ebe-3bcd424358ea' (browser_source) created
+[000:00:55:46.375.557.216][Debug] source 'browser_source_1f5e7bea-21c3-4575-849e-49d5989c354e' (browser_source) created
+[000:00:55:46.375.939.422][Debug] source 'browser_source_8186b630-43f5-4b34-b863-2babed528159' (browser_source) created
+[000:00:55:46.376.359.129][Debug] source 'game_capture_b4099cd6-59b8-47cb-aa9c-0a217fef9b3e' (game_capture) created
+[000:00:55:46.376.879.375][Debug] source 'game_capture_b4a7d3e7-523f-4818-b85c-45fdc102633e' (game_capture) created
+[000:00:55:46.391.528.980][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:55:46.391.569.409][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:55:46.391.591.484][Debug] source 'wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29' (wasapi_output_capture) created
+[000:00:55:46.404.211.971][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:55:46.404.246.813][Debug] source 'wasapi_input_capture_212cf0d0-0b16-4f91-824c-ba0af21429cc' (wasapi_input_capture) created
+[000:00:55:46.417.204.024][Debug] source 'scene_c5cff7f0-4927-4d75-b384-cb46b7e5dec2' (scene) created
+[000:00:55:46.421.094.431][Debug] source 'scene_c5cff7f0-4927-4d75-b384-cb46b7e5dec2' destroyed
+[000:00:55:46.421.197.098][Debug] source '0f09c6c7-5398-438d-a060-1f43c2b28d98' destroyed
+[000:00:55:54.349.043.290][Debug] source 'browser_source_8186b630-43f5-4b34-b863-2babed528159' destroyed
+[000:00:55:54.349.709.290][Debug] source 'browser_source_1f5e7bea-21c3-4575-849e-49d5989c354e' destroyed
+[000:00:55:54.350.228.738][Debug] source 'browser_source_0eccb8b9-a563-4e72-9ebe-3bcd424358ea' destroyed
+[000:00:55:54.351.083.580][Debug] source 'game_capture_b4099cd6-59b8-47cb-aa9c-0a217fef9b3e' destroyed
+[000:00:55:54.351.799.583][Debug] source 'game_capture_b4a7d3e7-523f-4818-b85c-45fdc102633e' destroyed
+[000:00:55:54.369.270.379][Debug] source 'wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29' destroyed
+[000:00:55:54.369.351.501][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:55:54.419.635.562][Debug] source 'wasapi_input_capture_212cf0d0-0b16-4f91-824c-ba0af21429cc' destroyed
+[000:00:55:54.419.694.608][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:55:54.550.027.129][Debug] source '23927920-7705-4af8-856f-fed703df5a7d' (cut_transition) created
+[000:00:55:54.551.213.907][Warning] [WASAPISource::TryInitialize]:[Speakers (4- Wireless Stereo Headset)] Failed to activate client context: 88890004
+[000:00:55:54.551.235.983][Info] [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{16c64155-8e0a-4c16-913d-5b90449e8c38}' not found.  Waiting for device
+[000:00:55:54.551.298.753][Debug] source 'wasapi_output_capture_5b2189a8-2f01-4f31-b8ba-dbc077dd0585' (wasapi_output_capture) created
+[000:00:55:54.552.075.664][Warning] [WASAPISource::TryInitialize]:[Microphone (4- Wireless Stereo Headset)] Failed to activate client context: 88890004
+[000:00:55:54.552.091.889][Info] [WASAPISource::WASAPISource] Device '{0.0.1.00000000}.{c6822fdf-1ab0-44ca-a29d-d06d4096c562}' not found.  Waiting for device
+[000:00:55:54.552.122.742][Debug] source 'wasapi_input_capture_34c12c25-19b4-41bc-b1f5-ee902c5b479f' (wasapi_input_capture) created
+[000:00:55:54.552.703.098][Debug] source 'game_capture_cef13ce1-c373-4443-8246-18d97e702386' (game_capture) created
+[000:00:55:54.553.105.251][Debug] source 'game_capture_f36e7c0a-81a2-4f73-906e-7760c7e4e02f' (game_capture) created
+[000:00:55:54.553.616.188][Debug] source 'text_gdiplus_a2938f48-07c6-4e55-a5db-c1785d38dbfb' (text_gdiplus) created
+[000:00:55:54.554.008.234][Debug] source 'game_capture_98a529a3-ecdc-4fd5-bc5e-a84ced9eb9ea' (game_capture) created
+[000:00:55:54.554.372.885][Debug] source 'game_capture_c7eb831b-b800-4b96-b3c3-f9b10f7bf504' (game_capture) created
+[000:00:55:54.554.848.182][Info] [Media Source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f']: settings:
+[000:00:55:54.554.848.182][Info] 	input:                   C:\Users\Cory\Downloads\STARTING\STARTING.mp4
+[000:00:55:54.554.848.182][Info] 	input_format:            (null)
+[000:00:55:54.554.848.182][Info] 	speed:                   98
+[000:00:55:54.554.848.182][Info] 	is_looping:              yes
+[000:00:55:54.554.848.182][Info] 	is_hw_decoding:          yes
+[000:00:55:54.554.848.182][Info] 	is_clear_on_media_end:   yes
+[000:00:55:54.554.848.182][Info] 	restart_on_activate:     yes
+[000:00:55:54.554.848.182][Info] 	close_when_inactive:     no
+[000:00:55:54.554.848.182][Info] 	enable_caching:          no
+[000:00:55:54.554.921.857][Debug] source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f' (ffmpeg_source) created
+[000:00:55:54.555.762.336][Debug] source 'game_capture_f5c2f7d0-3a64-4376-acb1-ba89c37990fd' (game_capture) created
+[000:00:55:54.575.474.498][Debug] source 'scene_a8b07554-f385-45e8-8f6f-3f48e48826d7' (scene) created
+[000:00:55:54.576.755.165][Debug] source 'scene_2d79da14-671c-46bc-9c26-33981b301914' (scene) created
+[000:00:55:54.579.031.374][Debug] source '376d3fe3-83c0-45ea-bc14-9a142ea2752d' (cut_transition) created
+[000:00:55:54.579.336.979][Debug] source 'scene_c5cff7f0-4927-4d75-b384-cb46b7e5dec2' destroyed
+[000:00:55:54.579.458.795][Debug] source '2e1ba855-9e2f-4114-9e92-cc897ed4885d' destroyed
+[000:00:55:55.090.207.088][Info] adding 463MB, source: ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f
+[000:00:55:55.137.876.088][Info] [Media Source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f']: settings:
+[000:00:55:55.137.876.088][Info] 	input:                   C:\Users\Cory\Downloads\STARTING\STARTING.mp4
+[000:00:55:55.137.876.088][Info] 	input_format:            (null)
+[000:00:55:55.137.876.088][Info] 	speed:                   98
+[000:00:55:55.137.876.088][Info] 	is_looping:              yes
+[000:00:55:55.137.876.088][Info] 	is_hw_decoding:          yes
+[000:00:55:55.137.876.088][Info] 	is_clear_on_media_end:   yes
+[000:00:55:55.137.876.088][Info] 	restart_on_activate:     yes
+[000:00:55:55.137.876.088][Info] 	close_when_inactive:     no
+[000:00:55:55.137.876.088][Info] 	enable_caching:          yes
+[000:00:55:57.659.585.186][Debug] source 'text_gdiplus_a2938f48-07c6-4e55-a5db-c1785d38dbfb' destroyed
+[000:00:55:57.660.087.346][Debug] source 'game_capture_f36e7c0a-81a2-4f73-906e-7760c7e4e02f' destroyed
+[000:00:55:57.660.515.033][Debug] source 'game_capture_98a529a3-ecdc-4fd5-bc5e-a84ced9eb9ea' destroyed
+[000:00:55:57.661.007.883][Debug] source 'game_capture_cef13ce1-c373-4443-8246-18d97e702386' destroyed
+[000:00:55:57.662.829.542][Debug] source 'game_capture_c7eb831b-b800-4b96-b3c3-f9b10f7bf504' destroyed
+[000:00:55:57.663.543.152][Debug] source 'game_capture_f5c2f7d0-3a64-4376-acb1-ba89c37990fd' destroyed
+[000:00:55:57.663.880.407][Debug] source 'scene_2d79da14-671c-46bc-9c26-33981b301914' destroyed
+[000:00:55:57.714.444.539][Debug] source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f' destroyed
+[000:00:55:57.714.502.787][Info] removing 463MB, source: ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f
+[000:00:55:58.093.738.962][Debug] source 'wasapi_output_capture_5b2189a8-2f01-4f31-b8ba-dbc077dd0585' destroyed
+[000:00:55:58.144.397.515][Debug] source 'wasapi_input_capture_34c12c25-19b4-41bc-b1f5-ee902c5b479f' destroyed
+[000:00:55:58.145.022.023][Debug] source '23927920-7705-4af8-856f-fed703df5a7d' destroyed
+[000:00:55:58.481.175.926][Debug] source '31e66cb4-483e-49a4-957a-325e53e84122' (cut_transition) created
+[000:00:55:58.481.978.903][Debug] source 'browser_source_cfe0b3b0-f06a-4483-993b-2762898e9d02' (browser_source) created
+[000:00:55:58.482.401.004][Debug] source 'browser_source_405965f7-0454-4a37-b52f-63f0d4d15bd9' (browser_source) created
+[000:00:55:58.482.744.377][Debug] source 'browser_source_966e8aaa-4899-4d8d-9d62-49b8f9ef5fd6' (browser_source) created
+[000:00:55:58.483.191.746][Debug] source 'game_capture_98b70826-75e6-444e-a011-153be4173fec' (game_capture) created
+[000:00:55:58.483.696.300][Debug] source 'game_capture_14fb7d7a-d0d3-4607-9afe-82519ca522f6' (game_capture) created
+[000:00:55:58.501.561.536][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:55:58.501.599.836][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:55:58.501.623.242][Debug] source 'wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6' (wasapi_output_capture) created
+[000:00:55:58.517.151.095][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:55:58.517.195.778][Debug] source 'wasapi_input_capture_aa26ca94-c943-4901-b219-e926bd1a1a2f' (wasapi_input_capture) created
+[000:00:55:58.529.559.067][Debug] source 'scene_71bc4434-dcd3-417c-ad8b-395ea733275e' (scene) created
+[000:00:55:58.534.111.486][Debug] source '5f15d43d-9152-4fe7-a7d2-3f4c09ab78ef' (cut_transition) created
+[000:00:55:58.534.575.877][Debug] source 'scene_a8b07554-f385-45e8-8f6f-3f48e48826d7' destroyed
+[000:00:55:58.534.691.842][Debug] source '376d3fe3-83c0-45ea-bc14-9a142ea2752d' destroyed
+[000:00:56:05.173.025.406][Debug] source 'browser_source_966e8aaa-4899-4d8d-9d62-49b8f9ef5fd6' destroyed
+[000:00:56:05.173.670.394][Debug] source 'browser_source_405965f7-0454-4a37-b52f-63f0d4d15bd9' destroyed
+[000:00:56:05.174.186.384][Debug] source 'browser_source_cfe0b3b0-f06a-4483-993b-2762898e9d02' destroyed
+[000:00:56:05.174.668.596][Debug] source 'game_capture_98b70826-75e6-444e-a011-153be4173fec' destroyed
+[000:00:56:05.175.206.130][Debug] source 'game_capture_14fb7d7a-d0d3-4607-9afe-82519ca522f6' destroyed
+[000:00:56:05.212.644.158][Debug] source 'wasapi_output_capture_e29b8a84-256b-4d40-84fe-58657c2100b6' destroyed
+[000:00:56:05.212.754.537][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:56:05.222.157.797][Debug] source 'wasapi_input_capture_aa26ca94-c943-4901-b219-e926bd1a1a2f' destroyed
+[000:00:56:05.222.220.833][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:56:05.226.999.330][Debug] source '31e66cb4-483e-49a4-957a-325e53e84122' destroyed
+[000:00:56:05.354.670.245][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' (cut_transition) created
+[000:00:56:05.355.866.864][Debug] [image_source: 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\49.jpg'
+[000:00:56:05.371.626.646][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:56:05.390.861.119][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' (image_source) created
+[000:00:56:05.391.577.654][Debug] [image_source: 'image_source_76408afe-832f-4e47-8762-137b52b87597'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\57.png'
+[000:00:56:05.435.337.096][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' (image_source) created
+[000:00:56:05.436.039.800][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' (text_gdiplus) created
+[000:00:56:05.436.419.612][Debug] [image_source: 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\59.jpg'
+[000:00:56:05.450.705.098][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:56:05.469.262.400][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' (image_source) created
+[000:00:56:05.470.048.088][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' (text_gdiplus) created
+[000:00:56:05.470.644.137][Debug] [image_source: 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\67.png'
+[000:00:56:05.515.611.635][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' (image_source) created
+[000:00:56:05.516.231.089][Debug] [image_source: 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\68.png'
+[000:00:56:05.554.543.109][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' (image_source) created
+[000:00:56:05.555.311.775][Debug] [image_source: 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\69.png'
+[000:00:56:05.605.457.529][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' (image_source) created
+[000:00:56:05.606.280.720][Debug] [image_source: 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\70.jpg'
+[000:00:56:05.623.037.907][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:56:05.645.133.732][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' (image_source) created
+[000:00:56:05.645.851.863][Debug] [image_source: 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\78.png'
+[000:00:56:05.693.042.641][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' (image_source) created
+[000:00:56:05.693.997.489][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' (text_gdiplus) created
+[000:00:56:05.694.579.441][Debug] [image_source: 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\79.png'
+[000:00:56:05.701.948.528][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' (image_source) created
+[000:00:56:05.702.743.792][Debug] [image_source: 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\80.png'
+[000:00:56:05.703.611.135][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' (image_source) created
+[000:00:56:05.704.320.754][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' (text_gdiplus) created
+[000:00:56:05.704.968.402][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' (text_gdiplus) created
+[000:00:56:05.705.437.581][Debug] [image_source: 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\81.png'
+[000:00:56:05.706.161.297][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' (image_source) created
+[000:00:56:05.708.516.767][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' (text_gdiplus) created
+[000:00:56:05.709.203.779][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' (text_gdiplus) created
+[000:00:56:05.709.606.996][Debug] [image_source: 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\82.png'
+[000:00:56:05.710.323.265][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' (image_source) created
+[000:00:56:05.710.842.713][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' (text_gdiplus) created
+[000:00:56:05.711.300.987][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' (text_gdiplus) created
+[000:00:56:05.711.795.434][Debug] [image_source: 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\83.png'
+[000:00:56:05.719.305.487][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' (image_source) created
+[000:00:56:05.719.928.931][Debug] [image_source: 'image_source_f85de825-b049-4838-976c-88084ac4b494'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\84.png'
+[000:00:56:05.720.653.446][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' (image_source) created
+[000:00:56:05.721.315.456][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' (text_gdiplus) created
+[000:00:56:05.721.823.201][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' (text_gdiplus) created
+[000:00:56:05.722.282.007][Debug] [image_source: 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\85.png'
+[000:00:56:05.723.114.773][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' (image_source) created
+[000:00:56:05.725.778.507][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' (text_gdiplus) created
+[000:00:56:05.726.406.739][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' (text_gdiplus) created
+[000:00:56:05.726.840.809][Debug] [image_source: 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\86.png'
+[000:00:56:05.727.555.748][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' (image_source) created
+[000:00:56:05.727.983.701][Debug] [image_source: 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\87.png'
+[000:00:56:05.728.522.033][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' (image_source) created
+[000:00:56:05.729.253.995][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' (text_gdiplus) created
+[000:00:56:05.729.909.356][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' (text_gdiplus) created
+[000:00:56:05.730.455.401][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' (text_gdiplus) created
+[000:00:56:05.730.925.112][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' (text_gdiplus) created
+[000:00:56:05.750.263.315][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:56:05.750.320.233][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:56:05.750.356.938][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' (wasapi_output_capture) created
+[000:00:56:05.767.221.046][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:56:05.767.264.134][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' (wasapi_input_capture) created
+[000:00:56:05.768.063.653][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' (dshow_input) created
+[000:00:56:05.768.828.595][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' (game_capture) created
+[000:00:56:05.769.305.753][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' (browser_source) created
+[000:00:56:05.769.756.048][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' (browser_source) created
+[000:00:56:05.770.310.605][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' (game_capture) created
+[000:00:56:05.770.749.729][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' (browser_source) created
+[000:00:56:05.771.190.182][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' (game_capture) created
+[000:00:56:05.772.026.938][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' (monitor_capture) created
+[000:00:56:05.773.617.199][Debug] DShow: Video media type changed
+[000:00:56:05.773.848.863][Debug] DShow: Video media type changed
+[000:00:56:05.777.104.124][Info] ---------------------------------
+[000:00:56:05.777.148.009][Info] [DShow Device: 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9'] settings updated: 
+[000:00:56:05.777.148.009][Info] 	video device: DroidCam Source 3
+[000:00:56:05.777.148.009][Info] 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+[000:00:56:05.777.148.009][Info] 	resolution: 640x480
+[000:00:56:05.777.148.009][Info] 	fps: 29.97 (interval: 333667)
+[000:00:56:05.777.148.009][Info] 	format: XRGB
+[000:00:56:05.777.619.848][Warning] DShow: HDevice::ConnectPins: failed to connect pins (0x80040207): The owner SID on a per-user subscription doesn't exist
+[000:00:56:05.777.619.848][Warning] 
+[000:00:56:05.854.685.937][Debug] DShow: Loaded filters:
+[000:00:56:05.854.720.780][Debug] DShow: 	Capture Filter
+[000:00:56:05.854.729.823][Debug] DShow: 	Color Space Converter
+[000:00:56:05.854.738.334][Debug] DShow: 	Smart Tee
+[000:00:56:05.854.746.845][Debug] DShow: 	Video Filter
+[000:00:56:05.909.228.514][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' (scene) created
+[000:00:56:05.910.171.660][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' (scene) created
+[000:00:56:05.911.116.401][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' (scene) created
+[000:00:56:05.912.142.796][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' (scene) created
+[000:00:56:05.913.269.996][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' (scene) created
+[000:00:56:05.914.418.739][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' (scene) created
+[000:00:56:05.915.581.048][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:56:05.915.815.637][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:56:05.916.992.308][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' (scene) created
+[000:00:56:05.918.399.579][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:56:05.918.655.180][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:56:05.932.795.178][Debug] source 'eec00677-c46b-48d5-9e2b-57e3bfc83de4' (cut_transition) created
+[000:00:56:05.933.190.948][Debug] source 'scene_71bc4434-dcd3-417c-ad8b-395ea733275e' destroyed
+[000:00:56:05.933.282.709][Debug] source '5f15d43d-9152-4fe7-a7d2-3f4c09ab78ef' destroyed
+[000:00:56:05.940.719.620][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:56:05.945.581.101][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:56:05.945.627.912][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:56:05.956.092.144][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture initializing!
+[000:00:56:05.956.152.786][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_Texture5
+[000:00:56:05.956.203.587][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] Starting capture
+[000:00:56:05.956.463.976][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] shared texture capture successful
+[000:00:56:06.779.929.304][Info] obs-browser: Uncaught TypeError: Cannot read property 'current' of undefined (source: https://streamlabs.com/widgets/frame/goal/custom:108)
+[000:00:56:23.503.992.808][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' destroyed
+[000:00:56:23.505.884.152][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' destroyed
+[000:00:56:23.508.191.746][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' destroyed
+[000:00:56:23.509.792.912][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' destroyed
+[000:00:56:23.511.955.018][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' destroyed
+[000:00:56:23.514.699.076][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' destroyed
+[000:00:56:23.516.923.155][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' destroyed
+[000:00:56:23.518.625.923][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' destroyed
+[000:00:56:23.520.273.634][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' destroyed
+[000:00:56:23.522.640.009][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' destroyed
+[000:00:56:23.525.785.954][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' destroyed
+[000:00:56:23.527.552.556][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' destroyed
+[000:00:56:23.529.854.831][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' destroyed
+[000:00:56:23.532.445.156][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' destroyed
+[000:00:56:23.534.201.385][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' destroyed
+[000:00:56:23.536.284.497][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' destroyed
+[000:00:56:23.537.573.409][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' destroyed
+[000:00:56:23.538.860.991][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' destroyed
+[000:00:56:23.540.174.373][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' destroyed
+[000:00:56:23.541.521.533][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' destroyed
+[000:00:56:23.542.573.994][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' destroyed
+[000:00:56:23.543.805.721][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' destroyed
+[000:00:56:23.545.045.694][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' destroyed
+[000:00:56:23.546.222.099][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:56:23.546.242.579][Debug] private source 'Crop/Pad' destroyed
+[000:00:56:23.546.305.349][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' destroyed
+[000:00:56:23.548.221.961][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' destroyed
+[000:00:56:23.549.464.859][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' destroyed
+[000:00:56:23.550.409.600][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' destroyed
+[000:00:56:23.551.219.759][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' destroyed
+[000:00:56:23.552.099.336][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' destroyed
+[000:00:56:23.552.885.024][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' destroyed
+[000:00:56:23.553.713.801][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' destroyed
+[000:00:56:23.554.452.678][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' destroyed
+[000:00:56:23.555.231.717][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' destroyed
+[000:00:56:23.556.078.845][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' destroyed
+[000:00:56:23.556.913.207][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' destroyed
+[000:00:56:23.557.714.056][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' destroyed
+[000:00:56:23.558.440.964][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' destroyed
+[000:00:56:23.559.143.669][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:56:23.559.168.404][Debug] private source 'Crop/Pad' destroyed
+[000:00:56:23.559.226.387][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' destroyed
+[000:00:56:23.560.054.365][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' destroyed
+[000:00:56:23.560.719.035][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' destroyed
+[000:00:56:23.569.271.975][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' destroyed
+[000:00:56:23.602.747.516][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' destroyed
+[000:00:56:23.608.910.143][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' destroyed
+[000:00:56:23.609.716.843][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' destroyed
+[000:00:56:23.610.380.450][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' destroyed
+[000:00:56:23.610.724.089][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:00:56:23.610.999.904][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' destroyed
+[000:00:56:23.611.293.274][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' destroyed
+[000:00:56:23.611.625.210][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' destroyed
+[000:00:56:23.645.984.584][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' destroyed
+[000:00:56:23.646.061.185][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:56:23.694.037.385][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' destroyed
+[000:00:56:23.694.083.931][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:56:23.698.894.876][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' destroyed
+[000:00:56:23.831.273.007][Debug] source '23927920-7705-4af8-856f-fed703df5a7d' (cut_transition) created
+[000:00:56:23.832.736.398][Warning] [WASAPISource::TryInitialize]:[Speakers (4- Wireless Stereo Headset)] Failed to activate client context: 88890004
+[000:00:56:23.832.777.358][Info] [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{16c64155-8e0a-4c16-913d-5b90449e8c38}' not found.  Waiting for device
+[000:00:56:23.832.848.373][Debug] source 'wasapi_output_capture_5b2189a8-2f01-4f31-b8ba-dbc077dd0585' (wasapi_output_capture) created
+[000:00:56:23.834.948.241][Warning] [WASAPISource::TryInitialize]:[Microphone (4- Wireless Stereo Headset)] Failed to activate client context: 88890004
+[000:00:56:23.835.007.022][Info] [WASAPISource::WASAPISource] Device '{0.0.1.00000000}.{c6822fdf-1ab0-44ca-a29d-d06d4096c562}' not found.  Waiting for device
+[000:00:56:23.835.102.240][Debug] source 'wasapi_input_capture_34c12c25-19b4-41bc-b1f5-ee902c5b479f' (wasapi_input_capture) created
+[000:00:56:23.836.388.493][Debug] source 'game_capture_cef13ce1-c373-4443-8246-18d97e702386' (game_capture) created
+[000:00:56:23.837.427.389][Debug] source 'game_capture_f36e7c0a-81a2-4f73-906e-7760c7e4e02f' (game_capture) created
+[000:00:56:23.839.073.505][Debug] source 'text_gdiplus_a2938f48-07c6-4e55-a5db-c1785d38dbfb' (text_gdiplus) created
+[000:00:56:23.841.861.980][Debug] source 'game_capture_98a529a3-ecdc-4fd5-bc5e-a84ced9eb9ea' (game_capture) created
+[000:00:56:23.843.197.704][Debug] source 'game_capture_c7eb831b-b800-4b96-b3c3-f9b10f7bf504' (game_capture) created
+[000:00:56:23.844.673.596][Info] [Media Source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f']: settings:
+[000:00:56:23.844.673.596][Info] 	input:                   C:\Users\Cory\Downloads\STARTING\STARTING.mp4
+[000:00:56:23.844.673.596][Info] 	input_format:            (null)
+[000:00:56:23.844.673.596][Info] 	speed:                   98
+[000:00:56:23.844.673.596][Info] 	is_looping:              yes
+[000:00:56:23.844.673.596][Info] 	is_hw_decoding:          yes
+[000:00:56:23.844.673.596][Info] 	is_clear_on_media_end:   yes
+[000:00:56:23.844.673.596][Info] 	restart_on_activate:     yes
+[000:00:56:23.844.673.596][Info] 	close_when_inactive:     no
+[000:00:56:23.844.673.596][Info] 	enable_caching:          no
+[000:00:56:23.844.844.618][Debug] source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f' (ffmpeg_source) created
+[000:00:56:23.846.853.256][Debug] source 'game_capture_f5c2f7d0-3a64-4376-acb1-ba89c37990fd' (game_capture) created
+[000:00:56:23.934.259.633][Debug] source 'scene_a8b07554-f385-45e8-8f6f-3f48e48826d7' (scene) created
+[000:00:56:23.935.977.562][Debug] source 'scene_2d79da14-671c-46bc-9c26-33981b301914' (scene) created
+[000:00:56:23.938.728.004][Debug] source '93a457d4-6058-4420-88bd-bf54576f1fd2' (cut_transition) created
+[000:00:56:23.939.139.732][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' destroyed
+[000:00:56:23.939.372.460][Debug] source 'eec00677-c46b-48d5-9e2b-57e3bfc83de4' destroyed
+[000:00:56:23.939.982.871][Info] adding 463MB, source: ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f
+[000:00:56:23.976.267.900][Info] [Media Source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f']: settings:
+[000:00:56:23.976.267.900][Info] 	input:                   C:\Users\Cory\Downloads\STARTING\STARTING.mp4
+[000:00:56:23.976.267.900][Info] 	input_format:            (null)
+[000:00:56:23.976.267.900][Info] 	speed:                   98
+[000:00:56:23.976.267.900][Info] 	is_looping:              yes
+[000:00:56:23.976.267.900][Info] 	is_hw_decoding:          yes
+[000:00:56:23.976.267.900][Info] 	is_clear_on_media_end:   yes
+[000:00:56:23.976.267.900][Info] 	restart_on_activate:     yes
+[000:00:56:23.976.267.900][Info] 	close_when_inactive:     no
+[000:00:56:23.976.267.900][Info] 	enable_caching:          yes
+[000:00:56:29.137.854.278][Debug] Timestamp for source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f' jumped by '5093877438', expected value 34576915451, input value 29483038013
+[000:00:56:31.029.262.772][Debug] source 'ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f' destroyed
+[000:00:56:31.029.362.778][Info] removing 463MB, source: ffmpeg_source_ff47fd56-327d-468b-98b0-b753d6889f6f
+[000:00:56:31.093.045.035][Debug] source '45982e95-ee59-4216-96d4-f83f085ea9f5' (cut_transition) created
+[000:00:56:31.093.467.668][Debug] source '93a457d4-6058-4420-88bd-bf54576f1fd2' destroyed
+[000:00:56:31.094.672.532][Debug] source 'scene_a8b07554-f385-45e8-8f6f-3f48e48826d7' destroyed
+[000:00:56:32.109.879.620][Debug] source '45982e95-ee59-4216-96d4-f83f085ea9f5' destroyed
+[000:00:56:49.791.236.409][Debug] source 'text_gdiplus_a2938f48-07c6-4e55-a5db-c1785d38dbfb' destroyed
+[000:00:56:49.792.193.119][Debug] source 'game_capture_f36e7c0a-81a2-4f73-906e-7760c7e4e02f' destroyed
+[000:00:56:49.792.746.877][Debug] source 'game_capture_98a529a3-ecdc-4fd5-bc5e-a84ced9eb9ea' destroyed
+[000:00:56:49.793.287.603][Debug] source 'game_capture_cef13ce1-c373-4443-8246-18d97e702386' destroyed
+[000:00:56:49.793.879.662][Debug] source 'game_capture_c7eb831b-b800-4b96-b3c3-f9b10f7bf504' destroyed
+[000:00:56:49.794.614.816][Debug] source 'game_capture_f5c2f7d0-3a64-4376-acb1-ba89c37990fd' destroyed
+[000:00:56:49.842.918.431][Debug] source 'wasapi_output_capture_5b2189a8-2f01-4f31-b8ba-dbc077dd0585' destroyed
+[000:00:56:49.894.122.497][Debug] source 'wasapi_input_capture_34c12c25-19b4-41bc-b1f5-ee902c5b479f' destroyed
+[000:00:56:50.357.446.220][Debug] source '2e1ba855-9e2f-4114-9e92-cc897ed4885d' (cut_transition) created
+[000:00:56:50.358.447.880][Debug] source 'browser_source_0eccb8b9-a563-4e72-9ebe-3bcd424358ea' (browser_source) created
+[000:00:56:50.358.917.324][Debug] source 'browser_source_1f5e7bea-21c3-4575-849e-49d5989c354e' (browser_source) created
+[000:00:56:50.359.512.575][Debug] source 'browser_source_8186b630-43f5-4b34-b863-2babed528159' (browser_source) created
+[000:00:56:50.360.005.160][Debug] source 'game_capture_b4099cd6-59b8-47cb-aa9c-0a217fef9b3e' (game_capture) created
+[000:00:56:50.360.459.976][Debug] source 'game_capture_b4a7d3e7-523f-4818-b85c-45fdc102633e' (game_capture) created
+[000:00:56:50.380.588.920][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:56:50.380.639.456][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:56:50.380.680.150][Debug] source 'wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29' (wasapi_output_capture) created
+[000:00:56:50.396.747.931][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:56:50.396.783.837][Debug] source 'wasapi_input_capture_212cf0d0-0b16-4f91-824c-ba0af21429cc' (wasapi_input_capture) created
+[000:00:56:50.411.023.842][Debug] source 'scene_c5cff7f0-4927-4d75-b384-cb46b7e5dec2' (scene) created
+[000:00:56:50.417.687.565][Debug] source '6da371b9-210c-400d-856e-d1bbadab763e' (cut_transition) created
+[000:00:56:50.418.053.812][Debug] source 'scene_2d79da14-671c-46bc-9c26-33981b301914' destroyed
+[000:00:56:50.418.155.946][Debug] source '23927920-7705-4af8-856f-fed703df5a7d' destroyed
+[000:00:56:54.347.809.169][Debug] source 'browser_source_8186b630-43f5-4b34-b863-2babed528159' destroyed
+[000:00:56:54.348.290.848][Debug] source 'browser_source_1f5e7bea-21c3-4575-849e-49d5989c354e' destroyed
+[000:00:56:54.348.719.333][Debug] source 'browser_source_0eccb8b9-a563-4e72-9ebe-3bcd424358ea' destroyed
+[000:00:56:54.349.372.300][Debug] source 'game_capture_b4099cd6-59b8-47cb-aa9c-0a217fef9b3e' destroyed
+[000:00:56:54.349.882.173][Debug] source 'game_capture_b4a7d3e7-523f-4818-b85c-45fdc102633e' destroyed
+[000:00:56:54.355.804.892][Debug] source 'wasapi_output_capture_86189cae-fefa-436b-b0c2-8274af075e29' destroyed
+[000:00:56:54.355.932.027][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:00:56:54.388.660.446][Debug] source 'wasapi_input_capture_212cf0d0-0b16-4f91-824c-ba0af21429cc' destroyed
+[000:00:56:54.388.715.503][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:00:56:54.394.491.936][Debug] source '2e1ba855-9e2f-4114-9e92-cc897ed4885d' destroyed
+[000:00:56:54.522.043.428][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' (cut_transition) created
+[000:00:56:54.522.854.384][Debug] [image_source: 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\49.jpg'
+[000:00:56:54.537.513.033][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:56:54.557.485.584][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' (image_source) created
+[000:00:56:54.558.194.140][Debug] [image_source: 'image_source_76408afe-832f-4e47-8762-137b52b87597'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\57.png'
+[000:00:56:54.602.497.234][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' (image_source) created
+[000:00:56:54.603.450.752][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' (text_gdiplus) created
+[000:00:56:54.603.941.209][Debug] [image_source: 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\59.jpg'
+[000:00:56:54.618.610.496][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:56:54.638.267.336][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' (image_source) created
+[000:00:56:54.639.080.952][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' (text_gdiplus) created
+[000:00:56:54.640.826.542][Debug] [image_source: 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\67.png'
+[000:00:56:54.685.101.708][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' (image_source) created
+[000:00:56:54.685.761.857][Debug] [image_source: 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\68.png'
+[000:00:56:54.721.087.782][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' (image_source) created
+[000:00:56:54.721.961.508][Debug] [image_source: 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\69.png'
+[000:00:56:54.768.779.656][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' (image_source) created
+[000:00:56:54.769.653.382][Debug] [image_source: 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\70.jpg'
+[000:00:56:54.783.566.504][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:56:54.803.364.842][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' (image_source) created
+[000:00:56:54.804.169.415][Debug] [image_source: 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\78.png'
+[000:00:56:54.849.662.744][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' (image_source) created
+[000:00:56:54.850.676.905][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' (text_gdiplus) created
+[000:00:56:54.851.220.822][Debug] [image_source: 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\79.png'
+[000:00:56:54.857.838.532][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' (image_source) created
+[000:00:56:54.858.429.793][Debug] [image_source: 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\80.png'
+[000:00:56:54.859.079.303][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' (image_source) created
+[000:00:56:54.859.591.570][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' (text_gdiplus) created
+[000:00:56:54.860.013.405][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' (text_gdiplus) created
+[000:00:56:54.860.489.499][Debug] [image_source: 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\81.png'
+[000:00:56:54.861.207.364][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' (image_source) created
+[000:00:56:54.861.708.194][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' (text_gdiplus) created
+[000:00:56:54.862.240.409][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' (text_gdiplus) created
+[000:00:56:54.862.742.303][Debug] [image_source: 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\82.png'
+[000:00:56:54.863.710.449][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' (image_source) created
+[000:00:56:54.864.642.956][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' (text_gdiplus) created
+[000:00:56:54.865.385.290][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' (text_gdiplus) created
+[000:00:56:54.865.930.804][Debug] [image_source: 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\83.png'
+[000:00:56:54.872.682.033][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' (image_source) created
+[000:00:56:54.876.041.556][Debug] [image_source: 'image_source_f85de825-b049-4838-976c-88084ac4b494'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\84.png'
+[000:00:56:54.876.786.550][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' (image_source) created
+[000:00:56:54.877.490.052][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' (text_gdiplus) created
+[000:00:56:54.877.961.891][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' (text_gdiplus) created
+[000:00:56:54.878.345.426][Debug] [image_source: 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\85.png'
+[000:00:56:54.878.994.936][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' (image_source) created
+[000:00:56:54.879.625.561][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' (text_gdiplus) created
+[000:00:56:54.880.091.282][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' (text_gdiplus) created
+[000:00:56:54.880.498.489][Debug] [image_source: 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\86.png'
+[000:00:56:54.881.179.916][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' (image_source) created
+[000:00:56:54.881.633.136][Debug] [image_source: 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b'] loading texture 'C:\Users\Cory\AppData\Roaming\slobs-client\Overlays\cc4b455b-cf95-499a-b747-6af324cf4f90\87.png'
+[000:00:56:54.882.089.016][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' (image_source) created
+[000:00:56:54.882.664.585][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' (text_gdiplus) created
+[000:00:56:54.883.118.071][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' (text_gdiplus) created
+[000:00:56:54.883.530.066][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' (text_gdiplus) created
+[000:00:56:54.884.062.546][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' (text_gdiplus) created
+[000:00:56:54.901.645.850][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' initialized
+[000:00:56:54.901.681.224][Info] WASAPI: will register for notification callbacks on default audio device change
+[000:00:56:54.901.701.438][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' (wasapi_output_capture) created
+[000:00:56:54.915.450.188][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' initialized
+[000:00:56:54.915.492.212][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' (wasapi_input_capture) created
+[000:00:56:54.916.313.275][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' (dshow_input) created
+[000:00:56:54.916.934.325][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' (game_capture) created
+[000:00:56:54.917.467.072][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' (browser_source) created
+[000:00:56:54.917.929.070][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' (browser_source) created
+[000:00:56:54.918.409.686][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' (game_capture) created
+[000:00:56:54.918.905.728][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' (browser_source) created
+[000:00:56:54.919.425.442][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' (game_capture) created
+[000:00:56:54.920.345.181][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' (monitor_capture) created
+[000:00:56:54.921.405.090][Debug] DShow: Video media type changed
+[000:00:56:54.921.585.154][Debug] DShow: Video media type changed
+[000:00:56:54.921.853.522][Info] ---------------------------------
+[000:00:56:54.921.868.151][Info] [DShow Device: 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9'] settings updated: 
+[000:00:56:54.921.868.151][Info] 	video device: DroidCam Source 3
+[000:00:56:54.921.868.151][Info] 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+[000:00:56:54.921.868.151][Info] 	resolution: 640x480
+[000:00:56:54.921.868.151][Info] 	fps: 29.97 (interval: 333667)
+[000:00:56:54.921.868.151][Info] 	format: XRGB
+[000:00:56:54.922.146.094][Warning] DShow: HDevice::ConnectPins: failed to connect pins (0x80040207): The owner SID on a per-user subscription doesn't exist
+[000:00:56:54.922.146.094][Warning] 
+[000:00:56:54.995.733.238][Debug] DShow: Loaded filters:
+[000:00:56:54.995.768.081][Debug] DShow: 	Capture Filter
+[000:00:56:54.995.781.380][Debug] DShow: 	Color Space Converter
+[000:00:56:54.995.792.284][Debug] DShow: 	Smart Tee
+[000:00:56:54.995.803.455][Debug] DShow: 	Video Filter
+[000:00:56:55.039.822.489][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' (scene) created
+[000:00:56:55.040.995.702][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' (scene) created
+[000:00:56:55.042.102.421][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' (scene) created
+[000:00:56:55.043.182.011][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' (scene) created
+[000:00:56:55.044.193.778][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' (scene) created
+[000:00:56:55.045.156.606][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' (scene) created
+[000:00:56:55.046.296.306][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:56:55.046.511.745][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:00:56:55.047.743.473][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' (scene) created
+[000:00:56:55.049.323.627][Debug] private source 'Crop/Pad' (crop_filter) created
+[000:00:56:55.049.543.322][Debug] - filter 'Crop/Pad' (crop_filter) added to source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:00:56:55.060.084.154][Debug] source '2a2a56b3-c512-49a7-8c6a-653be4a47a96' (cut_transition) created
+[000:00:56:55.060.369.811][Debug] source 'scene_c5cff7f0-4927-4d75-b384-cb46b7e5dec2' destroyed
+[000:00:56:55.060.442.954][Debug] source '6da371b9-210c-400d-856e-d1bbadab763e' destroyed
+[000:00:56:55.074.563.004][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:00:56:55.080.194.480][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:00:56:55.080.232.781][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:00:56:55.089.422.463][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture initializing!
+[000:00:56:55.089.458.901][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_Texture6
+[000:00:56:55.089.488.957][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] Starting capture
+[000:00:56:55.089.653.329][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] shared texture capture successful
+[000:00:56:55.802.742.196][Info] obs-browser: Uncaught TypeError: Cannot read property 'current' of undefined (source: https://streamlabs.com/widgets/frame/goal/custom:108)
+[000:01:00:12.835.006.756][Debug] source 'browser_source_b4a37f55-db8a-4dd5-90a2-1dde686f261f' (browser_source) created
+[000:01:00:13.025.334.330][Debug] <OBS::Display::SetPosition> Adjusting display position for source browser_source_b4a37f55-db8a-4dd5-90a2-1dde686f261f to 29x298.
+[000:01:00:13.028.114.826][Debug] <OBS::Display::SetSize> Adjusting display size for source browser_source_b4a37f55-db8a-4dd5-90a2-1dde686f261f to 595x518.
+[000:01:00:36.184.038.077][Info] obs-browser: Uncaught TypeError: Cannot read property 'appendChild' of undefined (source: data:text/css;charset=utf-8;base64,Ym9keSB7IGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IG1hcmdpbjogMHB4IGF1dG87IG92ZXJmbG93OiBoaWRkZW47IH0=:1)
+[000:01:00:37.597.756.506][Debug] source 'browser_source_b4a37f55-db8a-4dd5-90a2-1dde686f261f' destroyed
+[000:01:00:51.296.854.852][Debug] source 'browser_source_868f42df-969e-405d-8232-b2994ee6282b' (browser_source) created
+[000:01:00:51.464.297.987][Debug] <OBS::Display::SetPosition> Adjusting display position for source browser_source_868f42df-969e-405d-8232-b2994ee6282b to 29x298.
+[000:01:00:51.464.655.457][Debug] <OBS::Display::SetSize> Adjusting display size for source browser_source_868f42df-969e-405d-8232-b2994ee6282b to 595x518.
+[000:01:00:52.056.659.467][Info] obs-browser: Uncaught TypeError: Cannot read property 'current' of undefined (source: https://streamlabs.com/widgets/frame/goal/custom:108)
+[000:01:01:18.581.586.325][Info] adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3)
+[000:01:01:18.581.586.325][Info] 
+[000:01:01:22.683.056.365][Info] obs-browser: Uncaught TypeError: Cannot read property 'appendChild' of undefined (source: data:text/css;charset=utf-8;base64,Ym9keSB7IGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7IG1hcmdpbjogMHB4IGF1dG87IG92ZXJmbG93OiBoaWRkZW47IH0=:1)
+[000:01:01:29.285.613.709][Debug] source 'browser_source_868f42df-969e-405d-8232-b2994ee6282b' destroyed
+[000:01:01:37.502.933.166][Debug] source 'browser_source_bfce2a29-2252-4c50-9506-8b04ad4bd99e' (browser_source) created
+[000:01:01:37.602.054.652][Debug] <OBS::Display::SetPosition> Adjusting display position for source browser_source_bfce2a29-2252-4c50-9506-8b04ad4bd99e to 29x298.
+[000:01:01:37.609.756.474][Debug] <OBS::Display::SetSize> Adjusting display size for source browser_source_bfce2a29-2252-4c50-9506-8b04ad4bd99e to 595x518.
+[000:01:02:01.449.463.263][Debug] source 'browser_source_bfce2a29-2252-4c50-9506-8b04ad4bd99e' destroyed
+[000:01:03:39.519.045.896][Debug] source '2a2a56b3-c512-49a7-8c6a-653be4a47a96' destroyed
+[000:01:03:39.540.062.397][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:01:03:54.294.877.598][Info] adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3)
+[000:01:03:54.294.877.598][Info] 
+[000:01:04:07.377.134.179][Debug] output 'simple_stream' destroyed
+[000:01:04:07.377.332.596][Debug] output 'simple_stream' (rtmp_output) created
+[000:01:04:07.377.385.524][Debug] encoder 'acc' (ffmpeg_aac) created
+[000:01:04:07.377.409.728][Debug] encoder 'streaming_h264' destroyed
+[000:01:04:07.377.441.645][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:01:04:07.380.058.567][Info] ---------------------------------
+[000:01:04:07.380.148.467][Info] [x264 encoder: 'streaming_h264'] preset: superfast
+[000:01:04:07.380.275.603][Info] [x264 encoder: 'streaming_h264'] settings:
+[000:01:04:07.380.275.603][Info] 	rate_control: CBR
+[000:01:04:07.380.275.603][Info] 	bitrate:      3500
+[000:01:04:07.380.275.603][Info] 	buffer size:  3500
+[000:01:04:07.380.275.603][Info] 	crf:          0
+[000:01:04:07.380.275.603][Info] 	fps_num:      60
+[000:01:04:07.380.275.603][Info] 	fps_den:      1
+[000:01:04:07.380.275.603][Info] 	width:        1920
+[000:01:04:07.380.275.603][Info] 	height:       1080
+[000:01:04:07.380.275.603][Info] 	keyint:       120
+[000:01:04:07.380.275.603][Info] 
+[000:01:04:07.380.457.795][Info] [x264 encoder: 'streaming_h264'] custom settings: scenecut=0
+[000:01:04:07.388.368.938][Info] ---------------------------------
+[000:01:04:07.388.662.574][Info] [FFmpeg aac encoder: 'acc'] bitrate: 160, channels: 2, channel_layout: 3
+[000:01:04:07.388.662.574][Info] 
+[000:01:04:07.390.208.949][Info] [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-iad.twitch.tv/app...
+[000:01:04:07.447.856.778][Info] [rtmp stream: 'simple_stream'] Interface: Intel(R) I211 Gigabit Network Connection (ethernet, 1000 mbps)
+[000:01:04:08.704.823.446][Info] [rtmp stream: 'simple_stream'] Connection to rtmp://live-iad.twitch.tv/app successful
+[000:01:04:08.705.000.319][Debug] obs_encoder_audio: Null 'encoder' parameter
+[000:01:11:30.373.538.470][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] attempting to hook process: client.exe
+[000:01:11:30.378.701.300][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] existing hook found, signaling process: client.exe
+[000:01:11:30.378.748.643][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_HookInfo14208
+[000:01:11:30.389.673.277][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture initializing!
+[000:01:11:30.389.749.346][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] map id: CaptureHook_Texture7
+[000:01:11:30.389.796.157][Debug] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] Starting capture
+[000:01:11:30.390.092.985][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] shared texture capture successful
+[000:01:25:45.879.945.528][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:45.925.662.808][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:45.947.855.714][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:45.970.951.603][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:45.992.547.928][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 766667
+[000:01:25:45.993.978.871][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 783333
+[000:01:25:46.016.964.381][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 783333
+[000:01:25:46.039.788.178][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:46.041.991.776][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 833333
+[000:01:25:46.062.683.788][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 833333
+[000:01:25:46.085.696.693][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 833333
+[000:01:25:46.108.763.857][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:46.108.885.407][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 900000
+[000:01:25:46.131.859.214][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 900000
+[000:01:25:46.154.648.701][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:46.154.722.376][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:47.941.785.380][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:47.958.069.664][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:47.975.835.160][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:47.993.094.240][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:48.004.281.656][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:48.025.700.576][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:25:48.041.744.952][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:48.058.556.929][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:48.073.150.414][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:48.092.401.643][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:25:48.109.875.098][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:48.118.573.526][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:48.141.570.738][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:48.158.963.072][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:48.159.038.609][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:49.940.474.924][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:49.942.606.443][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:49.963.424.261][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:49.985.950.433][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:50.009.597.953][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:50.025.363.853][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:25:50.042.173.968][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:50.060.040.534][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:50.075.870.002][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:50.092.778.794][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:25:50.108.858.278][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:50.125.481.148][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:50.143.008.862][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:50.160.781.539][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:50.160.878.354][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:51.942.426.378][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:51.958.431.655][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:51.968.804.658][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:51.992.126.891][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:52.008.386.705][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:52.014.909.728][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:25:52.037.485.903][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:52.058.527.672][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:52.076.465.519][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:52.082.709.535][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:25:52.105.238.366][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:52.125.468.913][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:52.128.088.495][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:52.150.898.461][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:52.150.953.518][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:53.942.464.412][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:53.958.373.939][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:53.973.467.455][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:53.992.512.288][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:54.008.421.548][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:54.024.945.475][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:25:54.042.137.530][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:54.058.863.066][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:54.075.056.120][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:54.087.475.530][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:25:54.108.561.717][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:54.125.787.284][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:54.141.739.632][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:54.155.216.822][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:54.155.270.283][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:55.934.850.629][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:55.957.673.894][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:55.976.629.891][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:55.980.689.991][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:56.003.789.603][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:56.026.070.015][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:25:56.026.661.542][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:56.049.426.825][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:56.072.248.760][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:56.091.827.404][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:25:56.094.848.341][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:56.117.770.815][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:56.140.607.113][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:56.142.476.913][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:56.142.548.194][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:57.936.137.147][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:57.958.495.489][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:57.975.244.430][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:57.981.827.031][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:58.004.459.859][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:58.025.040.162][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:25:58.042.210.407][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:58.050.054.525][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:58.072.646.392][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:25:58.092.147.903][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:25:58.095.248.899][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:58.118.433.357][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:58.141.875.545][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:25:58.158.571.558][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:58.158.658.531][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:25:59.937.752.144][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:25:59.959.209.630][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:25:59.976.373.492][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:25:59.992.829.063][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:00.006.348.809][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:00.024.640.402][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:26:00.042.733.313][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:26:00.052.009.437][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:26:00.075.190.172][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:26:00.091.519.139][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:26:00.108.773.166][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:26:00.120.674.458][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:26:00.142.668.681][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:26:00.159.060.153][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:26:00.159.166.808][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:26:01.938.047.109][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:26:01.957.918.324][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:26:01.976.299.551][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:01.993.822.212][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:02.006.051.982][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:02.025.209.588][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:01:26:02.042.022.097][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:26:02.059.902.760][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:26:02.073.957.380][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:01:26:02.091.431.368][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:01:26:02.109.236.228][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:26:02.119.621.199][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:26:02.142.726.131][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:01:26:02.159.592.367][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:26:02.159.717.109][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:01:26:03.943.051.684][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:01:26:03.958.730.078][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:01:26:03.977.257.857][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:03.992.835.713][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:01:26:04.002.519.310][Info] WriteN, RTMP send error 10054 (476 bytes)
+[000:01:26:04.002.603.623][Info] WriteN, RTMP send error 10054 (79 bytes)
+[000:01:26:04.002.662.404][Info] WriteN, RTMP send error 10038 (42 bytes)
+[000:01:26:04.002.675.969][Info] [rtmp stream: 'simple_stream'] Disconnected from rtmp://live-iad.twitch.tv/app
+[000:01:26:04.002.689.001][Info] Output 'simple_stream': stopping
+[000:01:26:04.002.696.449][Info] Output 'simple_stream': Total frames output: 77792 (78889 attempted)
+[000:01:26:04.002.704.162][Info] Output 'simple_stream': Total drawn frames: 78996
+[000:01:26:04.002.713.737][Info] Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 1097 (1.4%)
+[000:01:26:04.002.790.072][Info] Output 'simple_stream':  Reconnecting in 10 seconds..
+[000:01:26:04.002.804.168][Info] [rtmp stream: 'simple_stream'] Freeing 845 remaining packets
+[000:01:26:04.049.751.846][Warning] warning: 2 frames left in the queue on closing
+[000:01:26:14.003.207.651][Info] ---------------------------------
+[000:01:26:14.003.259.250][Info] [x264 encoder: 'streaming_h264'] preset: superfast
+[000:01:26:14.003.287.178][Info] [x264 encoder: 'streaming_h264'] settings:
+[000:01:26:14.003.287.178][Info] 	rate_control: CBR
+[000:01:26:14.003.287.178][Info] 	bitrate:      3500
+[000:01:26:14.003.287.178][Info] 	buffer size:  3500
+[000:01:26:14.003.287.178][Info] 	crf:          0
+[000:01:26:14.003.287.178][Info] 	fps_num:      60
+[000:01:26:14.003.287.178][Info] 	fps_den:      1
+[000:01:26:14.003.287.178][Info] 	width:        1920
+[000:01:26:14.003.287.178][Info] 	height:       1080
+[000:01:26:14.003.287.178][Info] 	keyint:       120
+[000:01:26:14.003.287.178][Info] 
+[000:01:26:14.003.352.341][Info] [x264 encoder: 'streaming_h264'] custom settings: scenecut=0
+[000:01:26:14.010.729.674][Info] ---------------------------------
+[000:01:26:14.011.078.367][Info] [FFmpeg aac encoder: 'acc'] bitrate: 160, channels: 2, channel_layout: 3
+[000:01:26:14.011.078.367][Info] 
+[000:01:26:14.012.482.977][Info] [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-iad.twitch.tv/app...
+[000:01:26:14.057.034.757][Info] [rtmp stream: 'simple_stream'] Interface: Intel(R) I211 Gigabit Network Connection (ethernet, 1000 mbps)
+[000:01:26:38.944.132.072][Info] RTMPSockBuf_Fill, remote host closed connection
+[000:01:26:38.944.354.427][Info] Output 'simple_stream':  Reconnecting in 10 seconds..
+[000:01:26:38.944.375.173][Info] [rtmp stream: 'simple_stream'] Connection to rtmp://live-iad.twitch.tv/app failed: -3
+[000:01:26:58.949.006.851][Info] ---------------------------------
+[000:01:26:58.949.047.013][Info] [x264 encoder: 'streaming_h264'] preset: superfast
+[000:01:26:58.949.066.696][Info] [x264 encoder: 'streaming_h264'] settings:
+[000:01:26:58.949.066.696][Info] 	rate_control: CBR
+[000:01:26:58.949.066.696][Info] 	bitrate:      3500
+[000:01:26:58.949.066.696][Info] 	buffer size:  3500
+[000:01:26:58.949.066.696][Info] 	crf:          0
+[000:01:26:58.949.066.696][Info] 	fps_num:      60
+[000:01:26:58.949.066.696][Info] 	fps_den:      1
+[000:01:26:58.949.066.696][Info] 	width:        1920
+[000:01:26:58.949.066.696][Info] 	height:       1080
+[000:01:26:58.949.066.696][Info] 	keyint:       120
+[000:01:26:58.949.066.696][Info] 
+[000:01:26:58.949.126.008][Info] [x264 encoder: 'streaming_h264'] custom settings: scenecut=0
+[000:01:26:58.956.063.951][Info] [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-iad.twitch.tv/app...
+[000:01:26:58.956.774.368][Info] [rtmp stream: 'simple_stream'] Interface: Intel(R) I211 Gigabit Network Connection (ethernet, 1000 mbps)
+[000:01:26:59.985.055.695][Info] [rtmp stream: 'simple_stream'] Connection to rtmp://live-iad.twitch.tv/app successful
+[000:01:26:59.985.212.886][Debug] obs_encoder_audio: Null 'encoder' parameter
+[000:01:30:43.529.434.325][Info] [rtmp stream: 'simple_stream'] User stopped the stream
+[000:01:30:43.529.565.185][Info] Output 'simple_stream': stopping
+[000:01:30:43.529.578.484][Info] Output 'simple_stream': Total frames output: 13384
+[000:01:30:43.529.588.591][Info] Output 'simple_stream': Total drawn frames: 13475
+[000:01:30:43.607.301.796][Warning] warning: 2 frames left in the queue on closing
+[000:01:37:51.061.754.474][Debug] output 'simple_stream' destroyed
+[000:01:37:51.061.898.100][Debug] output 'simple_stream' (rtmp_output) created
+[000:01:37:51.061.923.367][Debug] encoder 'acc' destroyed
+[000:01:37:51.061.949.965][Debug] encoder 'acc' (ffmpeg_aac) created
+[000:01:37:51.061.965.391][Debug] encoder 'streaming_h264' destroyed
+[000:01:37:51.061.984.275][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:01:37:51.063.410.962][Info] ---------------------------------
+[000:01:37:51.063.426.921][Info] [x264 encoder: 'streaming_h264'] preset: superfast
+[000:01:37:51.063.447.933][Info] [x264 encoder: 'streaming_h264'] settings:
+[000:01:37:51.063.447.933][Info] 	rate_control: CBR
+[000:01:37:51.063.447.933][Info] 	bitrate:      3000
+[000:01:37:51.063.447.933][Info] 	buffer size:  3000
+[000:01:37:51.063.447.933][Info] 	crf:          0
+[000:01:37:51.063.447.933][Info] 	fps_num:      60
+[000:01:37:51.063.447.933][Info] 	fps_den:      1
+[000:01:37:51.063.447.933][Info] 	width:        1920
+[000:01:37:51.063.447.933][Info] 	height:       1080
+[000:01:37:51.063.447.933][Info] 	keyint:       120
+[000:01:37:51.063.447.933][Info] 
+[000:01:37:51.063.504.585][Info] [x264 encoder: 'streaming_h264'] custom settings: scenecut=0
+[000:01:37:51.071.116.773][Info] ---------------------------------
+[000:01:37:51.071.422.910][Info] [FFmpeg aac encoder: 'acc'] bitrate: 160, channels: 2, channel_layout: 3
+[000:01:37:51.071.422.910][Info] 
+[000:01:37:51.072.877.790][Info] [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-iad.twitch.tv/app...
+[000:01:37:51.125.583.814][Info] [rtmp stream: 'simple_stream'] Interface: Intel(R) I211 Gigabit Network Connection (ethernet, 1000 mbps)
+[000:01:37:52.191.763.038][Info] [rtmp stream: 'simple_stream'] Connection to rtmp://live-iad.twitch.tv/app successful
+[000:01:37:52.191.913.313][Debug] obs_encoder_audio: Null 'encoder' parameter
+[000:02:22:40.442.113.326][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:40.473.573.313][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:40.492.000.021][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733334
+[000:02:22:40.508.609.858][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733334
+[000:02:22:40.518.801.200][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733334
+[000:02:22:40.541.876.609][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 783334
+[000:02:22:40.558.024.714][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:40.575.517.586][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:40.587.698.949][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:40.608.427.399][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 850000
+[000:02:22:40.625.447.635][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:40.633.858.544][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:40.656.820.648][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:40.676.475.094][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 916667
+[000:02:22:40.676.566.589][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 916667
+[000:02:22:41.441.581.643][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:41.457.984.552][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:41.475.668.926][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:41.492.585.963][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:41.508.253.186][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:41.521.332.744][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:41.542.703.789][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:41.558.196.800][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:41.575.837.287][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:41.590.238.207][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:41.608.869.715][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:41.625.340.447][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:41.635.529.661][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:41.658.107.166][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:41.658.176.586][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:43.441.543.077][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:43.458.175.256][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:43.475.453.752][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:43.493.146.903][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:43.509.360.704][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:43.525.303.477][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:43.543.066.047][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:43.558.786.997][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:43.575.582.218][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:43.588.893.440][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:43.609.212.556][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:43.626.026.927][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:43.642.166.521][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:43.657.365.630][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:43.657.458.721][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:45.437.273.390][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:45.458.228.185][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:45.475.556.152][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:45.482.341.160][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:45.505.059.897][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:45.524.899.727][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:45.527.614.528][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:45.550.131.657][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:45.572.833.106][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:45.591.378.173][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:45.595.908.249][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:45.618.899.344][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:45.641.897.887][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:45.642.848.214][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:45.642.922.420][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:47.443.596.666][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:47.458.024.182][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:47.475.484.605][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:47.492.706.715][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:47.508.605.070][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 750000
+[000:02:22:47.525.608.283][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:47.542.392.865][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:47.558.106.368][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:47.575.367.842][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 816667
+[000:02:22:47.591.822.882][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:47.606.151.456][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:47.625.469.179][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:47.641.442.539][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 883333
+[000:02:22:47.659.554.865][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:47.659.664.447][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:49.429.761.208][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 716667
+[000:02:22:49.452.716.397][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:49.475.729.568][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:49.492.627.987][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 733333
+[000:02:22:49.498.827.319][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 783333
+[000:02:22:49.521.727.982][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:49.542.993.702][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:49.544.768.283][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 800000
+[000:02:22:49.567.660.170][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 850000
+[000:02:22:49.590.704.460][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:49.610.049.312][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 866667
+[000:02:22:49.613.882.003][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 900000
+[000:02:22:49.636.898.898][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 900000
+[000:02:22:49.658.052.110][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:22:49.658.115.146][Debug] [rtmp stream: 'simple_stream'] buffer_duration_usec: 933333
+[000:02:51:21.041.800.274][Info] [rtmp stream: 'simple_stream'] User stopped the stream
+[000:02:51:21.041.990.712][Info] Output 'simple_stream': stopping
+[000:02:51:21.042.022.629][Info] Output 'simple_stream': Total frames output: 263848 (264502 attempted)
+[000:02:51:21.042.061.993][Info] Output 'simple_stream': Total drawn frames: 264599
+[000:02:51:21.042.070.238][Info] Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 654 (0.2%)
+[000:02:51:21.116.460.359][Warning] warning: 2 frames left in the queue on closing
+[000:02:55:06.889.205.428][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture window no longer exists, terminating capture
+[000:02:55:06.890.033.672][Info] [game-capture: 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5'] capture stopped
+[000:02:55:21.792.410.154][Debug] source 'text_gdiplus_c3fa0d98-c644-4387-aafc-cd2e510a098a' destroyed
+[000:02:55:21.794.101.751][Debug] source 'image_source_76408afe-832f-4e47-8762-137b52b87597' destroyed
+[000:02:55:21.796.905.121][Debug] source 'image_source_0551b2b0-d7d8-45be-901d-e74511c1e2bb' destroyed
+[000:02:55:21.798.382.875][Debug] source 'scene_0528a647-b2ec-40c7-9c33-3005ba673dd4' destroyed
+[000:02:55:21.801.359.395][Debug] source 'image_source_0b21c18d-e486-4abb-aa5d-91bab43eee28' destroyed
+[000:02:55:21.802.864.278][Debug] source 'text_gdiplus_b17d4af1-92dd-4947-b23e-3e3fd6cc557b' destroyed
+[000:02:55:21.804.340.171][Debug] source 'image_source_7555a8b1-3cd0-4eff-800b-a69b32acf9f4' destroyed
+[000:02:55:21.805.555.408][Debug] source 'scene_c6344134-2058-4be0-8b62-ed99a16bf339' destroyed
+[000:02:55:21.809.033.023][Debug] source 'text_gdiplus_c4a8aa54-9f4d-4367-b917-a74c075711cf' destroyed
+[000:02:55:21.810.606.794][Debug] source 'image_source_d1b3319a-1fa4-4f5a-9e53-53c33e653c68' destroyed
+[000:02:55:21.811.915.654][Debug] source 'image_source_0115def1-ff82-4167-9cd8-2fb423fa9bb7' destroyed
+[000:02:55:21.813.047.375][Debug] source 'scene_1d6ecc62-7664-4ae6-910c-da6f3236063a' destroyed
+[000:02:55:21.814.470.870][Debug] source 'scene_2b73087b-c0ea-4b4d-b271-ab6b34209ad2' destroyed
+[000:02:55:21.816.440.411][Debug] source 'text_gdiplus_9dc87c21-0737-4644-8877-865cdf532c28' destroyed
+[000:02:55:21.818.046.365][Debug] source 'text_gdiplus_ad5ac01d-1812-4e4d-b225-832d84a8dcd8' destroyed
+[000:02:55:21.819.664.287][Debug] source 'image_source_f8786db5-ea04-4b06-9494-3a231df9f9e6' destroyed
+[000:02:55:21.821.023.150][Debug] source 'text_gdiplus_7f052363-e7ad-445c-984e-ef46ecd22b21' destroyed
+[000:02:55:21.825.129.529][Debug] source 'text_gdiplus_9d46cfa0-164a-4066-9089-fad0b252b70c' destroyed
+[000:02:55:21.827.307.328][Debug] source 'image_source_bd7b5f3f-894d-4f70-8462-686f5963232a' destroyed
+[000:02:55:21.828.798.913][Debug] source 'text_gdiplus_64e1ced4-d2bf-4bde-88f8-fcbfa9c3c3f9' destroyed
+[000:02:55:21.830.181.448][Debug] source 'text_gdiplus_7c142566-1542-4664-8f2c-9911afd03ef0' destroyed
+[000:02:55:21.831.641.647][Debug] source 'image_source_98cf49b3-ae5d-4471-960d-67d513d45b90' destroyed
+[000:02:55:21.833.028.438][Debug] source 'image_source_f5faa4cc-cfad-4eac-8de0-32d6e31e3dd0' destroyed
+[000:02:55:21.834.299.796][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496'
+[000:02:55:21.834.317.882][Debug] private source 'Crop/Pad' destroyed
+[000:02:55:21.834.404.590][Debug] source 'scene_059bcaca-b0e5-4acb-b552-a4663a721496' destroyed
+[000:02:55:21.835.920.644][Debug] source 'text_gdiplus_07e2c2fa-c2f5-425d-aa17-d97cf358b702' destroyed
+[000:02:55:21.843.916.899][Debug] source 'text_gdiplus_71c25233-17c4-44fa-a553-741867c7953f' destroyed
+[000:02:55:21.852.969.604][Debug] source 'text_gdiplus_df7d4465-a98c-4d4d-b33e-0afc8c9bf3c1' destroyed
+[000:02:55:21.855.145.275][Debug] source 'text_gdiplus_d4ca11d0-b83d-474f-a7ba-db2153832d0b' destroyed
+[000:02:55:21.861.923.633][Debug] source 'image_source_ae548dde-4282-46c2-a0e9-27ec50974a0b' destroyed
+[000:02:55:21.867.249.239][Debug] source 'image_source_d8f86180-f5e7-40a5-bda4-77d31dd6114b' destroyed
+[000:02:55:21.868.990.840][Debug] source 'text_gdiplus_b999f00a-32f4-4d90-97ee-650c9dea8951' destroyed
+[000:02:55:21.870.980.594][Debug] source 'text_gdiplus_fec8af0f-a81a-4b79-a23c-6793e31835b8' destroyed
+[000:02:55:21.872.328.819][Debug] source 'image_source_ca94d57b-d2ec-4ee8-8cd0-a2fc3f21d237' destroyed
+[000:02:55:21.875.268.102][Debug] source 'text_gdiplus_37b41b77-6391-48cd-ae1b-0118bd3be2a0' destroyed
+[000:02:55:21.899.464.859][Debug] source 'text_gdiplus_f320abe5-9e29-478f-84eb-793ba386fd51' destroyed
+[000:02:55:21.900.384.599][Debug] source 'image_source_f85de825-b049-4838-976c-88084ac4b494' destroyed
+[000:02:55:21.901.106.453][Debug] source 'image_source_0d637ae9-bdfd-4751-9284-5cfc59662daf' destroyed
+[000:02:55:21.902.125.667][Debug] - filter 'Crop/Pad' (crop_filter) removed from source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0'
+[000:02:55:21.902.159.446][Debug] private source 'Crop/Pad' destroyed
+[000:02:55:21.902.224.078][Debug] source 'scene_a415d972-4a73-432e-a0f1-6c0f36a813c0' destroyed
+[000:02:55:21.903.179.724][Debug] source 'browser_source_87d5f24e-c627-4349-a192-f81b08fecd73' destroyed
+[000:02:55:21.904.013.022][Debug] source 'browser_source_b389a7f8-86a9-4c19-a03d-1e1ddefe59ed' destroyed
+[000:02:55:21.920.348.905][Debug] source 'browser_source_3e87735e-2a4e-4bf0-ae74-618e17c7b3c9' destroyed
+[000:02:55:21.927.911.622][Debug] source 'dshow_input_ecbbbc0a-7897-40f0-a1ee-ac57a19db8f9' destroyed
+[000:02:55:21.934.414.963][Debug] source 'image_source_831687c0-03f8-4df3-aff9-c9455fc4922a' destroyed
+[000:02:55:21.934.842.649][Debug] source 'image_source_1fdf0207-9d3d-4442-be5d-03f76486cced' destroyed
+[000:02:55:21.935.193.204][Debug] source 'game_capture_e5b5aa3e-d220-4c89-9254-ccdf7c6a1fd5' destroyed
+[000:02:55:21.935.412.633][Debug] source 'game_capture_38819d30-88c7-45e1-8cd1-642281b2d13f' destroyed
+[000:02:55:21.935.620.093][Debug] source 'game_capture_0f07f186-4520-4d36-81fb-2437383942a0' destroyed
+[000:02:55:21.935.824.361][Debug] source 'monitor_capture_9d513ebe-cd40-409a-b140-f9c1cbfc2e8f' destroyed
+[000:02:55:21.975.580.090][Debug] source 'wasapi_output_capture_278e3651-2284-4619-ba76-c7a10c9b2863' destroyed
+[000:02:55:21.976.048.471][Info] WASAPI: Device 'Speakers (6- Wireless Stereo Headset)' Terminated
+[000:02:55:22.026.130.923][Debug] source 'wasapi_input_capture_2267a92b-b094-4d6f-a3b9-ebe0161a17a3' destroyed
+[000:02:55:22.026.179.330][Info] WASAPI: Device 'Microphone (6- Wireless Stereo Headset)' Terminated
+[000:02:55:22.632.017.735][Debug] source 'scene_2dd73b2c-583c-41ac-908a-a2c1406c15bb' destroyed
+[000:02:55:22.632.496.755][Debug] source '8922e7e4-b469-400d-80e3-f7743cf49821' destroyed
+[000:02:55:23.234.582.260][Debug] OBS_API::destroyOBS_API started
+[000:02:55:23.234.749.558][Debug] encoder 'streaming_h264' destroyed
+[000:02:55:23.234.821.371][Debug] encoder 'simple_h264_recording' destroyed
+[000:02:55:23.235.018.458][Debug] encoder 'acc' destroyed
+[000:02:55:23.235.072.451][Debug] output 'simple_stream' destroyed
+[000:02:55:23.235.193.470][Debug] output 'simple_file_output' destroyed
+[000:02:55:23.235.260.229][Debug] output 'ReplayBuffer' destroyed
+[000:02:55:23.235.399.866][Debug] service 'default_service' destroyed
+[000:02:55:23.235.427.527][Debug] encoder 'adv_aac0' destroyed
+[000:02:55:23.235.531.257][Debug] encoder 'adv_aac1' destroyed
+[000:02:55:23.235.558.919][Debug] encoder 'adv_aac2' destroyed
+[000:02:55:23.235.659.457][Debug] encoder 'adv_aac3' destroyed
+[000:02:55:23.235.685.256][Debug] encoder 'adv_aac4' destroyed
+[000:02:55:23.235.725.950][Debug] encoder 'adv_aac5' destroyed
+[000:02:55:23.245.077.877][Info] Freeing OBS context data
+[000:02:55:23.350.504.553][Debug] [AMF] <Plugin::AMD::AMF::~AMF> Finalizing.
+[000:02:55:23.402.087.899][Debug] [AMF] <Plugin::AMD::AMF::~AMF> Finalized.
